@@ -51,10 +51,10 @@ Each section includes visualization utilities and parameter explanations for rep
   _NeurIPS_ 2021. [Paper](https://proceedings.neurips.cc/paper/2021/file/48cb136b65a69e8c2aa22913a0d91b2f-Paper.pdf)  
   **Official implementation reused:** [github.com/FabianFalck/mfcvae](https://github.com/FabianFalck/mfcvae)
 
-- - **SMT — Sparse Manifold Transform**  
+- **SMT — Sparse Manifold Transform**  
   Y. Chen, D. M. Paiton & B. A. Olshausen.  
   *The Sparse Manifold Transform.*  
   _Advances in Neural Information Processing Systems (NeurIPS)_, 2020.  
-  [arXiv:1806.08887]([https://arxiv.org/abs/1806.08888](https://arxiv.org/abs/1806.08887))
+  [arXiv:1806.08887]([https://arxiv.org/abs/1806.08888](https://arxiv.org/abs/1806.08887)
 
 
