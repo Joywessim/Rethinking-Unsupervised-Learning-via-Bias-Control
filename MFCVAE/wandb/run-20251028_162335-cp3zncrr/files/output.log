@@ -1,0 +1,28 @@
+Initialize Shapes dataset and data loaders...
+Make model object...
+Initialize model randomly (from scratch)...
+Initialize all p(z_j | c_j) with GMM...
+Start training and evaluation loop...
+args.n_epoch=  201
+#Epoch   0: lr: 0.00050,
+Traceback (most recent call last):
+  File "train_mnsit.py", line 1131, in <module>
+    train(beta_z, beta_c)
+  File "train_mnsit.py", line 888, in train
+    loss, _, _, _, _, _, _, _ = mfcvae.compute_loss_5terms(x, x_hat, q_z_j_x_list, z_sample_q_z_j_x_list, epoch, beta_z, beta_c)
+  File "/home/wessim/PHD/Clustering(SophIA)/MFCVAE/mfcvae.py", line 433, in compute_loss_5terms
+    log_prob_p_x_z = p_x_z.log_prob(x)  # e.g. torch.Size([8])
+  File "/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/torch/distributions/independent.py", line 108, in log_prob
+    log_prob = self.base_dist.log_prob(value)
+  File "/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/torch/distributions/bernoulli.py", line 110, in log_prob
+    self._validate_sample(value)
+  File "/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/torch/distributions/distribution.py", line 315, in _validate_sample
+    raise ValueError(
+ValueError: Expected value argument (Tensor of shape (512, 784)) to be within the support (Boolean()) of the distribution Bernoulli(probs: torch.Size([512, 784])), but found invalid values:
+tensor([[-0.4242, -0.4242, -0.4242,  ..., -0.4242, -0.4242, -0.4242],
+        [-0.4242, -0.4242, -0.4242,  ..., -0.4242, -0.4242, -0.4242],
+        [-0.4242, -0.4242, -0.4242,  ..., -0.4242, -0.4242, -0.4242],
+        ...,
+        [-0.4242, -0.4242, -0.4242,  ..., -0.4242, -0.4242, -0.4242],
+        [-0.4242, -0.4242, -0.4242,  ..., -0.4242, -0.4242, -0.4242],
+        [-0.4242, -0.4242, -0.4242,  ..., -0.4242, -0.4242, -0.4242]])

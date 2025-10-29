@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train_mnsit.py", line 1131, in <module>
+    train(beta_z, beta_c)
+  File "train_mnsit.py", line 362, in train
+    assert args.J_n_mixtures == len(args.z_j_dim_list) == len(args.n_clusters_j_list) == len(args.n_epochs_per_progressive_step)
+AssertionError

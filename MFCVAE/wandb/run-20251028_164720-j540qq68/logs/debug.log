@@ -1,0 +1,25 @@
+2025-10-28 16:47:20,045 INFO    MainThread:151101 [wandb_setup.py:_flush():81] Current SDK version is 0.22.0
+2025-10-28 16:47:20,045 INFO    MainThread:151101 [wandb_setup.py:_flush():81] Configure stats pid to 151101
+2025-10-28 16:47:20,045 INFO    MainThread:151101 [wandb_setup.py:_flush():81] Loading settings from /home/wessim/.config/wandb/settings
+2025-10-28 16:47:20,045 INFO    MainThread:151101 [wandb_setup.py:_flush():81] Loading settings from /home/wessim/PHD/Clustering(SophIA)/MFCVAE/wandb/settings
+2025-10-28 16:47:20,045 INFO    MainThread:151101 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-28 16:47:20,046 INFO    MainThread:151101 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /home/wessim/PHD/Clustering(SophIA)/MFCVAE/wandb/run-20251028_164720-j540qq68/logs/debug.log
+2025-10-28 16:47:20,046 INFO    MainThread:151101 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /home/wessim/PHD/Clustering(SophIA)/MFCVAE/wandb/run-20251028_164720-j540qq68/logs/debug-internal.log
+2025-10-28 16:47:20,046 INFO    MainThread:151101 [wandb_init.py:init():813] calling init triggers
+2025-10-28 16:47:20,046 INFO    MainThread:151101 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-10-28 16:47:20,046 INFO    MainThread:151101 [wandb_init.py:init():861] starting backend
+2025-10-28 16:47:20,289 INFO    MainThread:151101 [wandb_init.py:init():864] sending inform_init request
+2025-10-28 16:47:20,322 INFO    MainThread:151101 [wandb_init.py:init():872] backend started and connected
+2025-10-28 16:47:20,327 INFO    MainThread:151101 [wandb_init.py:init():942] updated telemetry
+2025-10-28 16:47:20,328 INFO    MainThread:151101 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2025-10-28 16:47:23,641 INFO    MainThread:151101 [wandb_init.py:init():1017] starting run threads in backend
+2025-10-28 16:47:23,731 INFO    MainThread:151101 [wandb_run.py:_console_start():2506] atexit reg
+2025-10-28 16:47:23,731 INFO    MainThread:151101 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-10-28 16:47:23,731 INFO    MainThread:151101 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-10-28 16:47:23,731 INFO    MainThread:151101 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-10-28 16:47:23,734 INFO    MainThread:151101 [wandb_init.py:init():1057] run started, returning control to user process
+2025-10-28 16:47:23,736 INFO    MainThread:151101 [wandb_run.py:_config_callback():1392] config_cb None None {'device': 'cpu', 'temp_sample_generation': 1.0, 'facet_to_fix_pi_p_c': 'all', 'activation': 'relu', 'data_init': False, 'do_fc_batch_norm': False, 'seed': 3, 'J_n_mixtures': 2, 'batch_size': 512, 'config_args_path': '', 'cov_type_p_z_c': 'diag', 'dataset': 'mnist_13rot', 'dataset_on_gpu': True, 'dec_backbone_dims': [500, 500], 'dec_backbone_n_hidden': [1, 1], 'dec_rung_dims': [500, 2000], 'dec_rung_n_hidden': [1, 1], 'decode_layer_dims': [[500, 'merge', 500], [2000, 500]], 'do_progressive_training': True, 'do_test_during_training': True, 'do_vis_cluster_means': True, 'do_vis_conf_mat': True, 'do_vis_examples_per_cluster': True, 'do_vis_latent_code_traversal': True, 'do_vis_n_samples_per_cluster': True, 'do_vis_pi': True, 'do_vis_recon': True, 'do_vis_sample_generations_per_cluster': True, 'do_vis_test': True, 'do_vis_train': True, 'enc_backbone_dims': [500, 2000], 'enc_backbone_n_hidden': [1, 1], 'enc_rung_dims': [-1, -1], 'enc_rung_n_hidden': [-1, -1], 'encode_layer_dims': [[500, 'branch'], [2000, 'branch']], 'eval_batch_size': 512, 'fix_pi_p_c': False, 'fixed_var_init': 0.01, 'gamma_kl_c_pretrain': 0, 'gamma_kl_z_pretrain': 0, 'init_lr': 0.0005, 'init_off_diag_cov_p_z_c': False, 'init_type_p_z_c': 'gmm', 'lr_decay': 1, 'min_lr': None, 'model_type': 'fc_vlae', 'n_batches_fade_in': 15000, 'n_clusters_j_list': [2, 2], 'n_epochs': 201, 'n_epochs_per_progressive_step': [201, 201], 'n_examples_per_cluster': 16, 'n_recons_per_cluster': 4, 'n_sample_generation_plots_per_facet': 3, 'n_sample_generations_per_cluster': 8, 'n_test_batches': -1, 'save_model': True, 'sigma_multiplier_p_x_z': 0.35, 'user': 'user1', 'vis_every_n_epochs': 25, 'wandb_mode': 'online', 'z_j_dim_list': [5, 5]}
+2025-10-28 16:47:25,480 INFO    MainThread:151101 [wandb_watch.py:_watch():68] Watching
+2025-10-28 16:47:34,807 INFO    wandb-AsyncioManager-main:151101 [service_client.py:_forward_responses():84] Reached EOF.
+2025-10-28 16:47:34,807 INFO    wandb-AsyncioManager-main:151101 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

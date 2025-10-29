@@ -1,0 +1,72 @@
+Initialize Shapes dataset and data loaders...
+[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.  11.  12.  13.
+  14.  15.  16.  17.  18.  19.  20.  21.  22.  23.  24.  25.  26.  27.
+  28.  29.  30.  31.  32.  33.  34.  35.  36.  37.  38.  39.  40.  41.
+  42.  43.  44.  45.  46.  47.  48.  49.  50.  51.  52.  53.  54.  55.
+  56.  57.  58.  59.  60.  61.  62.  63.  64.  65.  66.  67.  68.  69.
+  70.  71.  72.  73.  74.  75.  76.  77.  78.  79.  80.  81.  82.  83.
+  84.  85.  86.  87.  88.  89.  90.  91.  92.  93.  94.  95.  96.  97.
+  98.  99. 100. 101. 102. 103. 104. 105. 106. 107. 108. 109. 110. 111.
+ 112. 113. 114. 115. 116. 117. 118. 119. 120. 121. 122. 123. 124. 125.
+ 126. 127. 128. 129. 130. 131. 132. 133. 134. 135. 136. 137. 138. 139.
+ 140. 141. 142. 143. 144. 145. 146. 147. 148. 149. 150. 151. 152. 153.
+ 154. 155. 156. 157. 158. 159. 160. 161. 162. 163. 164. 165. 166. 167.
+ 168. 169. 170. 171. 172. 173. 174. 175. 176. 177. 178. 179. 180. 181.
+ 182. 183. 184. 185. 186. 187. 188. 189. 190. 191. 192. 193. 194. 195.
+ 196. 197. 198. 199. 200. 201. 202. 203. 204. 205. 206. 207. 208. 209.
+ 210. 211. 212. 213. 214. 215. 216. 217. 218. 219. 220. 221. 222. 223.
+ 224. 225. 226. 227. 228. 229. 230. 231. 232. 233. 234. 235. 236. 237.
+ 238. 239. 240. 241. 242. 243. 244. 245. 246. 247. 248. 249. 250. 251.
+ 252. 253. 254. 255.]
+[0. 1.]
+[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.  11.  12.  13.
+  14.  15.  16.  17.  18.  19.  20.  21.  22.  23.  24.  25.  26.  27.
+  28.  29.  30.  31.  32.  33.  34.  35.  36.  37.  38.  39.  40.  41.
+  42.  43.  44.  45.  46.  47.  48.  49.  50.  51.  52.  53.  54.  55.
+  56.  57.  58.  59.  60.  61.  62.  63.  64.  65.  66.  67.  68.  69.
+  70.  71.  72.  73.  74.  75.  76.  77.  78.  79.  80.  81.  82.  83.
+  84.  85.  86.  87.  88.  89.  90.  91.  92.  93.  94.  95.  96.  97.
+  98.  99. 100. 101. 102. 103. 104. 105. 106. 107. 108. 109. 110. 111.
+ 112. 113. 114. 115. 116. 117. 118. 119. 120. 121. 122. 123. 124. 125.
+ 126. 127. 128. 129. 130. 131. 132. 133. 134. 135. 136. 137. 138. 139.
+ 140. 141. 142. 143. 144. 145. 146. 147. 148. 149. 150. 151. 152. 153.
+ 154. 155. 156. 157. 158. 159. 160. 161. 162. 163. 164. 165. 166. 167.
+ 168. 169. 170. 171. 172. 173. 174. 175. 176. 177. 178. 179. 180. 181.
+ 182. 183. 184. 185. 186. 187. 188. 189. 190. 191. 192. 193. 194. 195.
+ 196. 197. 198. 199. 200. 201. 202. 203. 204. 205. 206. 207. 208. 209.
+ 210. 211. 212. 213. 214. 215. 216. 217. 218. 219. 220. 221. 222. 223.
+ 224. 225. 226. 227. 228. 229. 230. 231. 232. 233. 234. 235. 236. 237.
+ 238. 239. 240. 241. 242. 243. 244. 245. 246. 247. 248. 249. 250. 251.
+ 252. 253. 254. 255.]
+[0. 1.]
+Make model object...
+Initialize model randomly (from scratch)...
+Initialize all p(z_j | c_j) with GMM...
+Start training and evaluation loop...
+args.n_epoch=  402
+#Epoch   0: lr: 0.00050,
+Creating cluster examples and sample generation plots...
+cluster examples done.
+sample generation done.
+Eval Loss: 532.1840, Gradient L2 Norm: 0.0000, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.5345, Eval Acc max label 0: 0.5345,
+Traceback (most recent call last):
+  File "train_mnsit.py", line 1131, in <module>
+    train(beta_z, beta_c)
+  File "train_mnsit.py", line 557, in train
+    x_hat, q_z_j_x_list, z_sample_q_z_j_x_list = mfcvae.forward(x, epoch, batch_idx)
+  File "/home/wessim/PHD/Clustering(SophIA)/MFCVAE/mfcvae.py", line 233, in forward
+    q_z_j_x_list = [D.Independent(D.Normal(loc=mu_q_z_j_x_list[j], scale=torch.sqrt(torch.exp(log_sigma_square_q_z_j_x_list[j]))), 1) for j in range(self.J_n_mixtures)]  # do not permute in this case (contrary to the compute_loss_new(...) function)
+  File "/home/wessim/PHD/Clustering(SophIA)/MFCVAE/mfcvae.py", line 233, in <listcomp>
+    q_z_j_x_list = [D.Independent(D.Normal(loc=mu_q_z_j_x_list[j], scale=torch.sqrt(torch.exp(log_sigma_square_q_z_j_x_list[j]))), 1) for j in range(self.J_n_mixtures)]  # do not permute in this case (contrary to the compute_loss_new(...) function)
+  File "/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/torch/distributions/normal.py", line 57, in __init__
+    super().__init__(batch_shape, validate_args=validate_args)
+  File "/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/torch/distributions/distribution.py", line 70, in __init__
+    raise ValueError(
+ValueError: Expected parameter scale (Tensor of shape (512, 5)) of distribution Normal(loc: torch.Size([512, 5]), scale: torch.Size([512, 5])) to satisfy the constraint GreaterThan(lower_bound=0.0), but found invalid values:
+tensor([[0.2151, 0.2173, 0.2162, 0.2146, 0.2140],
+        [0.0239, 0.0245, 0.0249, 0.0242, 0.0242],
+        [0.1232, 0.1250, 0.1246, 0.1227, 0.1227],
+        ...,
+        [0.1375, 0.1390, 0.1396, 0.1379, 0.1370],
+        [0.1180, 0.1189, 0.1192, 0.1170, 0.1174],
+        [0.1328, 0.1344, 0.1347, 0.1330, 0.1322]], grad_fn=<SqrtBackward0>)

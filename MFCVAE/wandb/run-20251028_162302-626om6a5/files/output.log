@@ -1,0 +1,11 @@
+Initialize Shapes dataset and data loaders...
+Traceback (most recent call last):
+  File "train_mnsit.py", line 1131, in <module>
+    train(beta_z, beta_c)
+  File "train_mnsit.py", line 404, in train
+    train_data = MNIST_13Rot(train=True, device=args.device)
+  File "/home/wessim/PHD/Clustering(SophIA)/MFCVAE/datasets.py", line 43, in __init__
+    self.data = self.data.to(device)
+  File "/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/torch/cuda/__init__.py", line 314, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available

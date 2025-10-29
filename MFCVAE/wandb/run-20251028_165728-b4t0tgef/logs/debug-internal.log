@@ -1,0 +1,9 @@
+{"time":"2025-10-28T16:57:29.225888719+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.0"}
+{"time":"2025-10-28T16:57:32.599585679+01:00","level":"INFO","msg":"stream: created new stream","id":"b4t0tgef"}
+{"time":"2025-10-28T16:57:32.599661251+01:00","level":"INFO","msg":"stream: started","id":"b4t0tgef"}
+{"time":"2025-10-28T16:57:32.599789092+01:00","level":"INFO","msg":"writer: started","stream_id":"b4t0tgef"}
+{"time":"2025-10-28T16:57:32.59990245+01:00","level":"INFO","msg":"handler: started","stream_id":"b4t0tgef"}
+{"time":"2025-10-28T16:57:32.599972575+01:00","level":"INFO","msg":"sender: started","stream_id":"b4t0tgef"}
+{"time":"2025-10-28T17:23:06.193361932+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/omezzinew/Sophia_MFCVAE/b4t0tgef/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-10-28T17:23:08.301607457+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/omezzinew/Sophia_MFCVAE/b4t0tgef/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-10-28T17:23:11.032136301+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": http2: server sent GOAWAY and closed the connection; LastStreamID=585, ErrCode=NO_ERROR, debug=\"session_timed_out\""}

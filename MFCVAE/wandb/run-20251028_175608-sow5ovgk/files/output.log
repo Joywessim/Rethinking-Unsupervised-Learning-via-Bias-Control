@@ -1,0 +1,1188 @@
+Initialize Shapes dataset and data loaders...
+Make model object...
+Initialize model randomly (from scratch)...
+Initialize all p(z_j | c_j) with GMM...
+Start training and evaluation loop...
+args.n_epoch=  402
+#Epoch   0: lr: 0.00050,
+Creating cluster examples and sample generation plots...
+cluster examples done.
+sample generation done.
+Eval Loss: 532.5030, Gradient L2 Norm: 0.0000, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.7233, Eval Acc max label 0: 0.7233,
+#Epoch   1: lr: 0.00050, Train Loss: 269.7329, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.6447, Train Acc max label 0: 0.6447,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 182.7254, Gradient L2 Norm: 111.7189, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9149, Eval Acc max label 0: 0.9149,
+#Epoch   2: lr: 0.00050, Train Loss: 181.9464, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.8870, Train Acc max label 0: 0.8870,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 176.3331, Gradient L2 Norm: 105.0445, Eval Acc max facet 0: 0.5375, Eval Acc max facet 1: 0.9240, Eval Acc max label 0: 0.9240,
+#Epoch   3: lr: 0.00050, Train Loss: 175.6710, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.8901, Train Acc max label 0: 0.8901,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 171.1795, Gradient L2 Norm: 478.0742, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.8681, Eval Acc max label 0: 0.8681,
+#Epoch   4: lr: 0.00050, Train Loss: 167.3651, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.8662, Train Acc max label 0: 0.8662,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 150.7042, Gradient L2 Norm: 803.3253, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9389, Eval Acc max label 0: 0.9389,
+#Epoch   5: lr: 0.00050, Train Loss: 146.1368, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9168, Train Acc max label 0: 0.9168,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 134.8805, Gradient L2 Norm: 787.7247, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9350, Eval Acc max label 0: 0.9350,
+#Epoch   6: lr: 0.00050, Train Loss: 135.5227, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9241, Train Acc max label 0: 0.9241,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 129.3709, Gradient L2 Norm: 481.3581, Eval Acc max facet 0: 0.5629, Eval Acc max facet 1: 0.9343, Eval Acc max label 0: 0.9343,
+#Epoch   7: lr: 0.00050, Train Loss: 130.5858, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9151, Train Acc max label 0: 0.9151,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 123.4715, Gradient L2 Norm: 588.2993, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9226, Eval Acc max label 0: 0.9226,
+#Epoch   8: lr: 0.00050, Train Loss: 119.9382, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9031, Train Acc max label 0: 0.9031,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 110.2382, Gradient L2 Norm: 353.5815, Eval Acc max facet 0: 0.6033, Eval Acc max facet 1: 0.9266, Eval Acc max label 0: 0.9266,
+#Epoch   9: lr: 0.00050, Train Loss: 110.2575, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9313, Train Acc max label 0: 0.9313,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 105.0735, Gradient L2 Norm: 640.3256, Eval Acc max facet 0: 0.5641, Eval Acc max facet 1: 0.9422, Eval Acc max label 0: 0.9422,
+#Epoch  10: lr: 0.00050, Train Loss: 105.8360, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9399, Train Acc max label 0: 0.9399,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 101.0915, Gradient L2 Norm: 211.4465, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9490, Eval Acc max label 0: 0.9490,
+#Epoch  11: lr: 0.00050, Train Loss: 102.1468, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9490, Train Acc max label 0: 0.9490,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 97.9146, Gradient L2 Norm: 597.3145, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9606, Eval Acc max label 0: 0.9606,
+#Epoch  12: lr: 0.00050, Train Loss: 99.1125, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9552, Train Acc max label 0: 0.9552,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 95.4017, Gradient L2 Norm: 641.9333, Eval Acc max facet 0: 0.5594, Eval Acc max facet 1: 0.9629, Eval Acc max label 0: 0.9629,
+#Epoch  13: lr: 0.00050, Train Loss: 95.6602, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9565, Train Acc max label 0: 0.9565,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 91.7951, Gradient L2 Norm: 198.9862, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9648, Eval Acc max label 0: 0.9648,
+#Epoch  14: lr: 0.00050, Train Loss: 92.9196, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9586, Train Acc max label 0: 0.9586,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 89.3187, Gradient L2 Norm: 538.3865, Eval Acc max facet 0: 0.5711, Eval Acc max facet 1: 0.9648, Eval Acc max label 0: 0.9648,
+#Epoch  15: lr: 0.00050, Train Loss: 90.5799, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9603, Train Acc max label 0: 0.9603,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 86.5923, Gradient L2 Norm: 463.2066, Eval Acc max facet 0: 0.5818, Eval Acc max facet 1: 0.9692, Eval Acc max label 0: 0.9692,
+#Epoch  16: lr: 0.00050, Train Loss: 88.4380, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9625, Train Acc max label 0: 0.9625,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 84.9249, Gradient L2 Norm: 334.1586, Eval Acc max facet 0: 0.5762, Eval Acc max facet 1: 0.9685, Eval Acc max label 0: 0.9685,
+#Epoch  17: lr: 0.00050, Train Loss: 86.4360, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9660, Train Acc max label 0: 0.9660,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 84.2011, Gradient L2 Norm: 454.2121, Eval Acc max facet 0: 0.5366, Eval Acc max facet 1: 0.9704, Eval Acc max label 0: 0.9704,
+#Epoch  18: lr: 0.00050, Train Loss: 85.4176, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9680, Train Acc max label 0: 0.9680,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 82.4426, Gradient L2 Norm: 283.0184, Eval Acc max facet 0: 0.5434, Eval Acc max facet 1: 0.9697, Eval Acc max label 0: 0.9697,
+#Epoch  19: lr: 0.00050, Train Loss: 84.2953, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9682, Train Acc max label 0: 0.9682,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 81.2516, Gradient L2 Norm: 294.3204, Eval Acc max facet 0: 0.5566, Eval Acc max facet 1: 0.9730, Eval Acc max label 0: 0.9730,
+#Epoch  20: lr: 0.00050, Train Loss: 82.8734, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9692, Train Acc max label 0: 0.9692,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 80.6103, Gradient L2 Norm: 341.3532, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9755, Eval Acc max label 0: 0.9755,
+#Epoch  21: lr: 0.00050, Train Loss: 81.8954, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9704, Train Acc max label 0: 0.9704,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 79.1842, Gradient L2 Norm: 414.8692, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9748, Eval Acc max label 0: 0.9748,
+#Epoch  22: lr: 0.00050, Train Loss: 80.9180, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9720, Train Acc max label 0: 0.9720,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 79.2521, Gradient L2 Norm: 364.3579, Eval Acc max facet 0: 0.5886, Eval Acc max facet 1: 0.9769, Eval Acc max label 0: 0.9769,
+#Epoch  23: lr: 0.00050, Train Loss: 80.1796, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9725, Train Acc max label 0: 0.9725,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 77.6779, Gradient L2 Norm: 395.4541, Eval Acc max facet 0: 0.5294, Eval Acc max facet 1: 0.9779, Eval Acc max label 0: 0.9779,
+#Epoch  24: lr: 0.00050, Train Loss: 79.6922, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9726, Train Acc max label 0: 0.9726,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 77.3084, Gradient L2 Norm: 280.7326, Eval Acc max facet 0: 0.5674, Eval Acc max facet 1: 0.9774, Eval Acc max label 0: 0.9774,
+Creating cluster examples plot...
+cluster examples done.
+#Epoch  25: lr: 0.00050, Train Loss: 69.9906, Train Acc max facet 0: 0.5461, Train Acc max facet 1: 0.9739, Train Acc max label 0: 0.9739,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Creating cluster examples and sample generation plots...
+cluster examples done.
+sample generation done.
+Eval Loss: 63.5068, Gradient L2 Norm: 71.5979, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9823, Eval Acc max label 0: 0.9823,
+#Epoch  26: lr: 0.00050, Train Loss: 174.1300, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9082, Train Acc max label 0: 0.9082,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 95.2039, Gradient L2 Norm: 263.4467, Eval Acc max facet 0: 0.5503, Eval Acc max facet 1: 0.9685, Eval Acc max label 0: 0.9685,
+#Epoch  27: lr: 0.00050, Train Loss: 86.1706, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9541, Train Acc max label 0: 0.9541,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 79.6768, Gradient L2 Norm: 82.7944, Eval Acc max facet 0: 0.5832, Eval Acc max facet 1: 0.9578, Eval Acc max label 0: 0.9578,
+#Epoch  28: lr: 0.00050, Train Loss: 80.0503, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9576, Train Acc max label 0: 0.9576,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 77.4202, Gradient L2 Norm: 123.0368, Eval Acc max facet 0: 0.5564, Eval Acc max facet 1: 0.9674, Eval Acc max label 0: 0.9674,
+#Epoch  29: lr: 0.00050, Train Loss: 78.6113, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9617, Train Acc max label 0: 0.9617,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 76.3717, Gradient L2 Norm: 51.8217, Eval Acc max facet 0: 0.5625, Eval Acc max facet 1: 0.9732, Eval Acc max label 0: 0.9732,
+#Epoch  30: lr: 0.00050, Train Loss: 77.6920, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9658, Train Acc max label 0: 0.9658,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 75.6328, Gradient L2 Norm: 107.6706, Eval Acc max facet 0: 0.5662, Eval Acc max facet 1: 0.9765, Eval Acc max label 0: 0.9765,
+#Epoch  31: lr: 0.00050, Train Loss: 77.0621, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9694, Train Acc max label 0: 0.9694,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 75.0833, Gradient L2 Norm: 73.2857, Eval Acc max facet 0: 0.5853, Eval Acc max facet 1: 0.9779, Eval Acc max label 0: 0.9779,
+#Epoch  32: lr: 0.00050, Train Loss: 76.4858, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9708, Train Acc max label 0: 0.9708,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 74.5788, Gradient L2 Norm: 163.2560, Eval Acc max facet 0: 0.5704, Eval Acc max facet 1: 0.9795, Eval Acc max label 0: 0.9795,
+#Epoch  33: lr: 0.00050, Train Loss: 76.0526, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9727, Train Acc max label 0: 0.9727,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 74.2620, Gradient L2 Norm: 140.1204, Eval Acc max facet 0: 0.5720, Eval Acc max facet 1: 0.9823, Eval Acc max label 0: 0.9823,
+#Epoch  34: lr: 0.00050, Train Loss: 75.5899, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9751, Train Acc max label 0: 0.9751,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 73.9885, Gradient L2 Norm: 103.3634, Eval Acc max facet 0: 0.5583, Eval Acc max facet 1: 0.9821, Eval Acc max label 0: 0.9821,
+#Epoch  35: lr: 0.00050, Train Loss: 75.1247, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9751, Train Acc max label 0: 0.9751,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 73.5790, Gradient L2 Norm: 164.9710, Eval Acc max facet 0: 0.5781, Eval Acc max facet 1: 0.9828, Eval Acc max label 0: 0.9828,
+#Epoch  36: lr: 0.00050, Train Loss: 74.7728, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9760, Train Acc max label 0: 0.9760,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 73.2765, Gradient L2 Norm: 124.5847, Eval Acc max facet 0: 0.6035, Eval Acc max facet 1: 0.9848, Eval Acc max label 0: 0.9848,
+#Epoch  37: lr: 0.00050, Train Loss: 74.4056, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9769, Train Acc max label 0: 0.9769,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 73.0168, Gradient L2 Norm: 93.8589, Eval Acc max facet 0: 0.5739, Eval Acc max facet 1: 0.9851, Eval Acc max label 0: 0.9851,
+#Epoch  38: lr: 0.00050, Train Loss: 74.0020, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9786, Train Acc max label 0: 0.9786,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 72.7225, Gradient L2 Norm: 134.3834, Eval Acc max facet 0: 0.5725, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch  39: lr: 0.00050, Train Loss: 73.7244, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9780, Train Acc max label 0: 0.9780,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 72.4165, Gradient L2 Norm: 101.4533, Eval Acc max facet 0: 0.5550, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch  40: lr: 0.00050, Train Loss: 73.3971, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9786, Train Acc max label 0: 0.9786,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 72.3880, Gradient L2 Norm: 105.0510, Eval Acc max facet 0: 0.5692, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch  41: lr: 0.00050, Train Loss: 73.0711, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9796, Train Acc max label 0: 0.9796,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 72.4108, Gradient L2 Norm: 72.7941, Eval Acc max facet 0: 0.6214, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch  42: lr: 0.00050, Train Loss: 72.8490, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9794, Train Acc max label 0: 0.9794,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 71.8654, Gradient L2 Norm: 200.4922, Eval Acc max facet 0: 0.5869, Eval Acc max facet 1: 0.9869, Eval Acc max label 0: 0.9869,
+#Epoch  43: lr: 0.00050, Train Loss: 72.5144, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9792, Train Acc max label 0: 0.9792,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 71.5515, Gradient L2 Norm: 91.1990, Eval Acc max facet 0: 0.5436, Eval Acc max facet 1: 0.9874, Eval Acc max label 0: 0.9874,
+#Epoch  44: lr: 0.00050, Train Loss: 72.2722, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9802, Train Acc max label 0: 0.9802,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 71.4167, Gradient L2 Norm: 143.0639, Eval Acc max facet 0: 0.5830, Eval Acc max facet 1: 0.9890, Eval Acc max label 0: 0.9890,
+#Epoch  45: lr: 0.00050, Train Loss: 71.9983, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9800, Train Acc max label 0: 0.9800,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 71.2071, Gradient L2 Norm: 107.5034, Eval Acc max facet 0: 0.5403, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch  46: lr: 0.00050, Train Loss: 71.7019, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9805, Train Acc max label 0: 0.9805,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 70.9147, Gradient L2 Norm: 145.7566, Eval Acc max facet 0: 0.6359, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch  47: lr: 0.00050, Train Loss: 71.5049, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 70.8524, Gradient L2 Norm: 94.0188, Eval Acc max facet 0: 0.5429, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch  48: lr: 0.00050, Train Loss: 71.2540, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9805, Train Acc max label 0: 0.9805,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 70.6210, Gradient L2 Norm: 183.7161, Eval Acc max facet 0: 0.6963, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch  49: lr: 0.00050, Train Loss: 71.0968, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9812, Train Acc max label 0: 0.9812,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 70.7646, Gradient L2 Norm: 190.5936, Eval Acc max facet 0: 0.5653, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+Creating cluster examples plot...
+cluster examples done.
+#Epoch  50: lr: 0.00050, Train Loss: 63.6228, Train Acc max facet 0: 0.5637, Train Acc max facet 1: 0.9812, Train Acc max label 0: 0.9812,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Creating cluster examples and sample generation plots...
+cluster examples done.
+sample generation done.
+Eval Loss: 58.8678, Gradient L2 Norm: 64.4217, Eval Acc max facet 0: 0.5420, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch  51: lr: 0.00050, Train Loss: 123.6583, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9568, Train Acc max label 0: 0.9568,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 89.9218, Gradient L2 Norm: 380.2693, Eval Acc max facet 0: 0.5294, Eval Acc max facet 1: 0.9788, Eval Acc max label 0: 0.9788,
+#Epoch  52: lr: 0.00050, Train Loss: 90.4494, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9704, Train Acc max label 0: 0.9704,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 86.1258, Gradient L2 Norm: 512.2830, Eval Acc max facet 0: 0.5298, Eval Acc max facet 1: 0.9774, Eval Acc max label 0: 0.9774,
+#Epoch  53: lr: 0.00050, Train Loss: 82.7563, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9711, Train Acc max label 0: 0.9711,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 77.3954, Gradient L2 Norm: 84.8354, Eval Acc max facet 0: 0.5294, Eval Acc max facet 1: 0.9804, Eval Acc max label 0: 0.9804,
+#Epoch  54: lr: 0.00050, Train Loss: 74.3781, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9726, Train Acc max label 0: 0.9726,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 71.4190, Gradient L2 Norm: 95.9244, Eval Acc max facet 0: 0.5331, Eval Acc max facet 1: 0.9811, Eval Acc max label 0: 0.9811,
+#Epoch  55: lr: 0.00050, Train Loss: 71.1533, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9737, Train Acc max label 0: 0.9737,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 70.2449, Gradient L2 Norm: 141.7233, Eval Acc max facet 0: 0.5298, Eval Acc max facet 1: 0.9828, Eval Acc max label 0: 0.9828,
+#Epoch  56: lr: 0.00050, Train Loss: 70.4014, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9763, Train Acc max label 0: 0.9763,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 70.1027, Gradient L2 Norm: 140.0524, Eval Acc max facet 0: 0.5305, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch  57: lr: 0.00050, Train Loss: 70.0770, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9783, Train Acc max label 0: 0.9783,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 69.6807, Gradient L2 Norm: 72.5498, Eval Acc max facet 0: 0.5310, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch  58: lr: 0.00050, Train Loss: 69.8144, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9785, Train Acc max label 0: 0.9785,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 69.5623, Gradient L2 Norm: 188.9820, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9869, Eval Acc max label 0: 0.9869,
+#Epoch  59: lr: 0.00050, Train Loss: 69.6050, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9798, Train Acc max label 0: 0.9798,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 69.6522, Gradient L2 Norm: 103.8187, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch  60: lr: 0.00050, Train Loss: 69.3494, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9795, Train Acc max label 0: 0.9795,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 69.2534, Gradient L2 Norm: 125.8912, Eval Acc max facet 0: 0.5296, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch  61: lr: 0.00050, Train Loss: 69.1898, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 69.2835, Gradient L2 Norm: 132.7391, Eval Acc max facet 0: 0.5294, Eval Acc max facet 1: 0.9890, Eval Acc max label 0: 0.9890,
+#Epoch  62: lr: 0.00050, Train Loss: 69.0100, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9810, Train Acc max label 0: 0.9810,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 69.0824, Gradient L2 Norm: 145.1434, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch  63: lr: 0.00050, Train Loss: 68.8356, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9811, Train Acc max label 0: 0.9811,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 69.0990, Gradient L2 Norm: 140.5086, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch  64: lr: 0.00050, Train Loss: 68.6701, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9816, Train Acc max label 0: 0.9816,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.9902, Gradient L2 Norm: 76.5188, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9897, Eval Acc max label 0: 0.9897,
+#Epoch  65: lr: 0.00050, Train Loss: 68.4539, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9820, Train Acc max label 0: 0.9820,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.8094, Gradient L2 Norm: 87.5999, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch  66: lr: 0.00050, Train Loss: 68.3661, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9819, Train Acc max label 0: 0.9819,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.7506, Gradient L2 Norm: 120.6554, Eval Acc max facet 0: 0.5298, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch  67: lr: 0.00050, Train Loss: 68.2067, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9821, Train Acc max label 0: 0.9821,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.7893, Gradient L2 Norm: 106.8716, Eval Acc max facet 0: 0.5294, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch  68: lr: 0.00050, Train Loss: 68.0424, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9821, Train Acc max label 0: 0.9821,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.6212, Gradient L2 Norm: 67.3323, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch  69: lr: 0.00050, Train Loss: 67.9195, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9828, Train Acc max label 0: 0.9828,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.5425, Gradient L2 Norm: 129.5504, Eval Acc max facet 0: 0.5294, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch  70: lr: 0.00050, Train Loss: 67.8595, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9825, Train Acc max label 0: 0.9825,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.5744, Gradient L2 Norm: 97.9861, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch  71: lr: 0.00050, Train Loss: 67.6611, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9832, Train Acc max label 0: 0.9832,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.4429, Gradient L2 Norm: 106.7148, Eval Acc max facet 0: 0.5322, Eval Acc max facet 1: 0.9904, Eval Acc max label 0: 0.9904,
+#Epoch  72: lr: 0.00050, Train Loss: 67.4615, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9832, Train Acc max label 0: 0.9832,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.3772, Gradient L2 Norm: 92.0089, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9904, Eval Acc max label 0: 0.9904,
+#Epoch  73: lr: 0.00050, Train Loss: 67.3419, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9832, Train Acc max label 0: 0.9832,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.3277, Gradient L2 Norm: 153.4177, Eval Acc max facet 0: 0.5308, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch  74: lr: 0.00050, Train Loss: 67.2153, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9830, Train Acc max label 0: 0.9830,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.3807, Gradient L2 Norm: 85.7368, Eval Acc max facet 0: 0.5296, Eval Acc max facet 1: 0.9902, Eval Acc max label 0: 0.9902,
+Creating cluster examples plot...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+#Epoch  75: lr: 0.00050, Train Loss: 60.7771, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9842, Train Acc max label 0: 0.9842,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Creating cluster examples and sample generation plots...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+sample generation done.
+Eval Loss: 57.0839, Gradient L2 Norm: 50.8094, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9900, Eval Acc max label 0: 0.9900,
+#Epoch  76: lr: 0.00050, Train Loss: 111.6618, Train Acc max facet 0: 0.5296, Train Acc max facet 1: 0.9746, Train Acc max label 0: 0.9746,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 85.5811, Gradient L2 Norm: 671.3715, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch  77: lr: 0.00050, Train Loss: 82.5851, Train Acc max facet 0: 0.5388, Train Acc max facet 1: 0.9794, Train Acc max label 0: 0.9794,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 79.7839, Gradient L2 Norm: 321.2041, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch  78: lr: 0.00050, Train Loss: 75.2655, Train Acc max facet 0: 0.5467, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 72.5780, Gradient L2 Norm: 193.5188, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch  79: lr: 0.00050, Train Loss: 70.2787, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9811, Train Acc max label 0: 0.9811,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 69.4299, Gradient L2 Norm: 147.4677, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9902, Eval Acc max label 0: 0.9902,
+#Epoch  80: lr: 0.00050, Train Loss: 67.9830, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9819, Train Acc max label 0: 0.9819,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.3404, Gradient L2 Norm: 120.9204, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9907, Eval Acc max label 0: 0.9907,
+#Epoch  81: lr: 0.00050, Train Loss: 67.2364, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9824, Train Acc max label 0: 0.9824,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.8532, Gradient L2 Norm: 151.2421, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch  82: lr: 0.00050, Train Loss: 66.8641, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9833, Train Acc max label 0: 0.9833,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.7419, Gradient L2 Norm: 85.8257, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch  83: lr: 0.00050, Train Loss: 66.6626, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9836, Train Acc max label 0: 0.9836,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.5796, Gradient L2 Norm: 125.6511, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch  84: lr: 0.00050, Train Loss: 66.4983, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9840, Train Acc max label 0: 0.9840,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.6293, Gradient L2 Norm: 121.1122, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch  85: lr: 0.00050, Train Loss: 66.4145, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9841, Train Acc max label 0: 0.9841,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.6898, Gradient L2 Norm: 106.3322, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch  86: lr: 0.00050, Train Loss: 66.2142, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9839, Train Acc max label 0: 0.9839,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.5732, Gradient L2 Norm: 169.0027, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch  87: lr: 0.00050, Train Loss: 66.1234, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9845, Train Acc max label 0: 0.9845,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.5545, Gradient L2 Norm: 113.5939, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch  88: lr: 0.00050, Train Loss: 66.0466, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9847, Train Acc max label 0: 0.9847,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.7236, Gradient L2 Norm: 128.8493, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9907, Eval Acc max label 0: 0.9907,
+#Epoch  89: lr: 0.00050, Train Loss: 65.8909, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9848, Train Acc max label 0: 0.9848,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.4765, Gradient L2 Norm: 83.9633, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch  90: lr: 0.00050, Train Loss: 65.7725, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9848, Train Acc max label 0: 0.9848,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.5524, Gradient L2 Norm: 114.0506, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9914, Eval Acc max label 0: 0.9914,
+#Epoch  91: lr: 0.00050, Train Loss: 65.7337, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9849, Train Acc max label 0: 0.9849,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.3849, Gradient L2 Norm: 81.8358, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9907, Eval Acc max label 0: 0.9907,
+#Epoch  92: lr: 0.00050, Train Loss: 65.5396, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9847, Train Acc max label 0: 0.9847,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.4314, Gradient L2 Norm: 126.6605, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9907, Eval Acc max label 0: 0.9907,
+#Epoch  93: lr: 0.00050, Train Loss: 65.4581, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9855, Train Acc max label 0: 0.9855,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.2870, Gradient L2 Norm: 77.6138, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch  94: lr: 0.00050, Train Loss: 65.3493, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9855, Train Acc max label 0: 0.9855,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.2876, Gradient L2 Norm: 93.4842, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9914, Eval Acc max label 0: 0.9914,
+#Epoch  95: lr: 0.00050, Train Loss: 65.2907, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9850, Train Acc max label 0: 0.9850,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.1984, Gradient L2 Norm: 106.7796, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch  96: lr: 0.00050, Train Loss: 65.1914, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9852, Train Acc max label 0: 0.9852,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.1457, Gradient L2 Norm: 73.5999, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch  97: lr: 0.00050, Train Loss: 65.1052, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9856, Train Acc max label 0: 0.9856,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.1301, Gradient L2 Norm: 92.7653, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch  98: lr: 0.00050, Train Loss: 65.0012, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9857, Train Acc max label 0: 0.9857,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.3571, Gradient L2 Norm: 159.5415, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch  99: lr: 0.00050, Train Loss: 64.9496, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9856, Train Acc max label 0: 0.9856,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.3111, Gradient L2 Norm: 166.0342, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+Creating cluster examples plot...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+#Epoch 100: lr: 0.00050, Train Loss: 58.7481, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Creating cluster examples and sample generation plots...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+sample generation done.
+Eval Loss: 56.0149, Gradient L2 Norm: 76.3290, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9914, Eval Acc max label 0: 0.9914,
+#Epoch 101: lr: 0.00050, Train Loss: 99.8297, Train Acc max facet 0: 0.5416, Train Acc max facet 1: 0.9763, Train Acc max label 0: 0.9763,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 77.3112, Gradient L2 Norm: 262.8568, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 102: lr: 0.00050, Train Loss: 70.3903, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9816, Train Acc max label 0: 0.9816,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.0563, Gradient L2 Norm: 147.6962, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9902, Eval Acc max label 0: 0.9902,
+#Epoch 103: lr: 0.00050, Train Loss: 65.9587, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9832, Train Acc max label 0: 0.9832,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0299, Gradient L2 Norm: 192.4472, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9904, Eval Acc max label 0: 0.9904,
+#Epoch 104: lr: 0.00050, Train Loss: 65.1696, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9847, Train Acc max label 0: 0.9847,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.7955, Gradient L2 Norm: 121.4165, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 105: lr: 0.00050, Train Loss: 64.8574, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9851, Train Acc max label 0: 0.9851,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9259, Gradient L2 Norm: 162.1910, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch 106: lr: 0.00050, Train Loss: 64.6851, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9852, Train Acc max label 0: 0.9852,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8539, Gradient L2 Norm: 72.1827, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 107: lr: 0.00050, Train Loss: 64.5388, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9854, Train Acc max label 0: 0.9854,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.7908, Gradient L2 Norm: 82.5913, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 108: lr: 0.00050, Train Loss: 64.3987, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9856, Train Acc max label 0: 0.9856,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8522, Gradient L2 Norm: 115.1670, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 109: lr: 0.00050, Train Loss: 64.3128, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9852, Train Acc max label 0: 0.9852,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8590, Gradient L2 Norm: 100.5170, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 110: lr: 0.00050, Train Loss: 64.2200, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9855, Train Acc max label 0: 0.9855,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.1817, Gradient L2 Norm: 135.3635, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 111: lr: 0.00050, Train Loss: 64.1296, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9860, Train Acc max label 0: 0.9860,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8798, Gradient L2 Norm: 108.7499, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 112: lr: 0.00050, Train Loss: 64.0443, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9859, Train Acc max label 0: 0.9859,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.7758, Gradient L2 Norm: 109.3588, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 113: lr: 0.00050, Train Loss: 63.9376, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9863, Train Acc max label 0: 0.9863,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.7737, Gradient L2 Norm: 114.5429, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 114: lr: 0.00050, Train Loss: 63.8705, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9859, Train Acc max label 0: 0.9859,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8965, Gradient L2 Norm: 108.5691, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch 115: lr: 0.00050, Train Loss: 63.8207, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9863, Train Acc max label 0: 0.9863,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9109, Gradient L2 Norm: 136.6924, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 116: lr: 0.00050, Train Loss: 63.7423, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9862, Train Acc max label 0: 0.9862,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8541, Gradient L2 Norm: 91.9771, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 117: lr: 0.00050, Train Loss: 63.6791, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9862, Train Acc max label 0: 0.9862,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.1765, Gradient L2 Norm: 100.1145, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch 118: lr: 0.00050, Train Loss: 63.5453, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.6841, Gradient L2 Norm: 85.3438, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch 119: lr: 0.00050, Train Loss: 63.4727, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9864, Train Acc max label 0: 0.9864,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0016, Gradient L2 Norm: 110.9137, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 120: lr: 0.00050, Train Loss: 63.3708, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9864, Train Acc max label 0: 0.9864,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9720, Gradient L2 Norm: 135.9482, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch 121: lr: 0.00050, Train Loss: 63.3670, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9865, Train Acc max label 0: 0.9865,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0152, Gradient L2 Norm: 134.1441, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 122: lr: 0.00050, Train Loss: 63.2557, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9869, Train Acc max label 0: 0.9869,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0009, Gradient L2 Norm: 97.7201, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9928, Eval Acc max label 0: 0.9928,
+#Epoch 123: lr: 0.00050, Train Loss: 63.1596, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9865, Train Acc max label 0: 0.9865,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9941, Gradient L2 Norm: 101.4578, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9928, Eval Acc max label 0: 0.9928,
+#Epoch 124: lr: 0.00050, Train Loss: 63.0853, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9864, Train Acc max label 0: 0.9864,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0667, Gradient L2 Norm: 69.1746, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+Creating cluster examples plot...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+#Epoch 125: lr: 0.00050, Train Loss: 57.2387, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9869, Train Acc max label 0: 0.9869,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Creating cluster examples and sample generation plots...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+sample generation done.
+Eval Loss: 56.2421, Gradient L2 Norm: 63.5734, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch 126: lr: 0.00050, Train Loss: 83.7326, Train Acc max facet 0: 0.5328, Train Acc max facet 1: 0.9811, Train Acc max label 0: 0.9811,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 65.9730, Gradient L2 Norm: 114.9823, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 127: lr: 0.00050, Train Loss: 64.1606, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9851, Train Acc max label 0: 0.9851,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 65.9687, Gradient L2 Norm: 72.0593, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 128: lr: 0.00050, Train Loss: 63.2076, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9859, Train Acc max label 0: 0.9859,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.1212, Gradient L2 Norm: 91.3547, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 129: lr: 0.00050, Train Loss: 63.0393, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9869, Train Acc max label 0: 0.9869,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.5521, Gradient L2 Norm: 130.3243, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 130: lr: 0.00050, Train Loss: 62.9128, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.2482, Gradient L2 Norm: 143.6123, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 131: lr: 0.00050, Train Loss: 62.7206, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.7687, Gradient L2 Norm: 120.7332, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 132: lr: 0.00050, Train Loss: 62.6919, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9867, Train Acc max label 0: 0.9867,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.4222, Gradient L2 Norm: 81.3287, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch 133: lr: 0.00050, Train Loss: 62.5912, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9865, Train Acc max label 0: 0.9865,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.5225, Gradient L2 Norm: 79.3216, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 134: lr: 0.00050, Train Loss: 62.5594, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9864, Train Acc max label 0: 0.9864,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.6658, Gradient L2 Norm: 167.8928, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 135: lr: 0.00050, Train Loss: 62.3863, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.6053, Gradient L2 Norm: 92.8543, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 136: lr: 0.00050, Train Loss: 62.3626, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.6294, Gradient L2 Norm: 89.0209, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 137: lr: 0.00050, Train Loss: 62.2615, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9870, Train Acc max label 0: 0.9870,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8961, Gradient L2 Norm: 88.8396, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 138: lr: 0.00050, Train Loss: 62.2153, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9867, Train Acc max label 0: 0.9867,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.7242, Gradient L2 Norm: 96.4782, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 139: lr: 0.00050, Train Loss: 62.1938, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.6952, Gradient L2 Norm: 147.4393, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 140: lr: 0.00050, Train Loss: 62.0952, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9869, Train Acc max label 0: 0.9869,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9553, Gradient L2 Norm: 81.7139, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 141: lr: 0.00050, Train Loss: 62.0508, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9869, Train Acc max label 0: 0.9869,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0632, Gradient L2 Norm: 92.0966, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 142: lr: 0.00050, Train Loss: 62.0197, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8617, Gradient L2 Norm: 63.5781, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 143: lr: 0.00050, Train Loss: 61.8994, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9737, Gradient L2 Norm: 103.7308, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 144: lr: 0.00050, Train Loss: 61.8387, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9871, Train Acc max label 0: 0.9871,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9656, Gradient L2 Norm: 100.0839, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 145: lr: 0.00050, Train Loss: 61.7734, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9869, Train Acc max label 0: 0.9869,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9012, Gradient L2 Norm: 97.4239, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 146: lr: 0.00050, Train Loss: 61.6567, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9598, Gradient L2 Norm: 128.9277, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 147: lr: 0.00050, Train Loss: 61.6598, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9161, Gradient L2 Norm: 91.0191, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 148: lr: 0.00050, Train Loss: 61.5983, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0656, Gradient L2 Norm: 99.5105, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 149: lr: 0.00050, Train Loss: 61.5365, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9869, Train Acc max label 0: 0.9869,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.9400, Gradient L2 Norm: 77.7779, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+Creating cluster examples plot...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+#Epoch 150: lr: 0.00050, Train Loss: 56.0560, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Creating cluster examples and sample generation plots...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+sample generation done.
+Eval Loss: 57.0896, Gradient L2 Norm: 50.5202, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch 151: lr: 0.00050, Train Loss: 76.5336, Train Acc max facet 0: 0.5333, Train Acc max facet 1: 0.9829, Train Acc max label 0: 0.9829,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 65.7762, Gradient L2 Norm: 93.6666, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch 152: lr: 0.00050, Train Loss: 62.1399, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9864, Train Acc max label 0: 0.9864,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.0470, Gradient L2 Norm: 80.3084, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9928, Eval Acc max label 0: 0.9928,
+#Epoch 153: lr: 0.00050, Train Loss: 61.5017, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.2290, Gradient L2 Norm: 83.8018, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9930, Eval Acc max label 0: 0.9930,
+#Epoch 154: lr: 0.00050, Train Loss: 61.3308, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9869, Train Acc max label 0: 0.9869,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.5527, Gradient L2 Norm: 71.4062, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 155: lr: 0.00050, Train Loss: 61.2186, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.5223, Gradient L2 Norm: 74.6971, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 156: lr: 0.00050, Train Loss: 61.0958, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9870, Train Acc max label 0: 0.9870,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.6460, Gradient L2 Norm: 105.2713, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9928, Eval Acc max label 0: 0.9928,
+#Epoch 157: lr: 0.00050, Train Loss: 61.0472, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9865, Train Acc max label 0: 0.9865,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8365, Gradient L2 Norm: 113.1787, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9932, Eval Acc max label 0: 0.9932,
+#Epoch 158: lr: 0.00050, Train Loss: 60.9399, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9869, Train Acc max label 0: 0.9869,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.7328, Gradient L2 Norm: 99.6838, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch 159: lr: 0.00050, Train Loss: 60.9348, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.7699, Gradient L2 Norm: 69.0658, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 160: lr: 0.00050, Train Loss: 60.8575, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8513, Gradient L2 Norm: 84.4735, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 161: lr: 0.00050, Train Loss: 60.8605, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9868, Train Acc max label 0: 0.9868,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.2421, Gradient L2 Norm: 129.9804, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 162: lr: 0.00050, Train Loss: 60.7660, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8460, Gradient L2 Norm: 96.1539, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 163: lr: 0.00050, Train Loss: 60.6069, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9870, Train Acc max label 0: 0.9870,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0203, Gradient L2 Norm: 115.1086, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 164: lr: 0.00050, Train Loss: 60.6355, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9867, Train Acc max label 0: 0.9867,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.2291, Gradient L2 Norm: 103.9861, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 165: lr: 0.00050, Train Loss: 60.5615, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.2651, Gradient L2 Norm: 74.8006, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch 166: lr: 0.00050, Train Loss: 60.5228, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9863, Train Acc max label 0: 0.9863,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.3479, Gradient L2 Norm: 158.9514, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 167: lr: 0.00050, Train Loss: 60.4594, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9864, Train Acc max label 0: 0.9864,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.3252, Gradient L2 Norm: 64.5864, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9921, Eval Acc max label 0: 0.9921,
+#Epoch 168: lr: 0.00050, Train Loss: 60.3891, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.3702, Gradient L2 Norm: 125.3748, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch 169: lr: 0.00050, Train Loss: 60.3932, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.2857, Gradient L2 Norm: 59.7958, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9914, Eval Acc max label 0: 0.9914,
+#Epoch 170: lr: 0.00050, Train Loss: 60.3107, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9864, Train Acc max label 0: 0.9864,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.3193, Gradient L2 Norm: 179.5401, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch 171: lr: 0.00050, Train Loss: 60.1825, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9864, Train Acc max label 0: 0.9864,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.4522, Gradient L2 Norm: 88.9009, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9914, Eval Acc max label 0: 0.9914,
+#Epoch 172: lr: 0.00050, Train Loss: 60.0991, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9861, Train Acc max label 0: 0.9861,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.3334, Gradient L2 Norm: 67.0791, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch 173: lr: 0.00050, Train Loss: 60.1095, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9859, Train Acc max label 0: 0.9859,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.6414, Gradient L2 Norm: 100.6627, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch 174: lr: 0.00050, Train Loss: 60.0402, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9864, Train Acc max label 0: 0.9864,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.4713, Gradient L2 Norm: 72.3637, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9914, Eval Acc max label 0: 0.9914,
+Creating cluster examples plot...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+#Epoch 175: lr: 0.00050, Train Loss: 54.7488, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9860, Train Acc max label 0: 0.9860,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Creating cluster examples and sample generation plots...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+sample generation done.
+Eval Loss: 57.6418, Gradient L2 Norm: 50.0398, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 176: lr: 0.00050, Train Loss: 74.2847, Train Acc max facet 0: 0.5307, Train Acc max facet 1: 0.9834, Train Acc max label 0: 0.9834,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.2804, Gradient L2 Norm: 106.4985, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 177: lr: 0.00050, Train Loss: 60.5753, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9861, Train Acc max label 0: 0.9861,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.3053, Gradient L2 Norm: 83.3364, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9932, Eval Acc max label 0: 0.9932,
+#Epoch 178: lr: 0.00050, Train Loss: 59.9744, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.6758, Gradient L2 Norm: 98.3726, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 179: lr: 0.00050, Train Loss: 59.8191, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9865, Train Acc max label 0: 0.9865,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 66.8034, Gradient L2 Norm: 63.9473, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9925, Eval Acc max label 0: 0.9925,
+#Epoch 180: lr: 0.00050, Train Loss: 59.7493, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9865, Train Acc max label 0: 0.9865,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0455, Gradient L2 Norm: 84.0264, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 181: lr: 0.00050, Train Loss: 59.6812, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9863, Train Acc max label 0: 0.9863,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.0640, Gradient L2 Norm: 71.5006, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9918, Eval Acc max label 0: 0.9918,
+#Epoch 182: lr: 0.00050, Train Loss: 59.6131, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9863, Train Acc max label 0: 0.9863,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.4046, Gradient L2 Norm: 62.6851, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch 183: lr: 0.00050, Train Loss: 59.5983, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9859, Train Acc max label 0: 0.9859,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.4255, Gradient L2 Norm: 80.6701, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 184: lr: 0.00050, Train Loss: 59.4444, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9866, Train Acc max label 0: 0.9866,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.3105, Gradient L2 Norm: 86.3886, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9923, Eval Acc max label 0: 0.9923,
+#Epoch 185: lr: 0.00050, Train Loss: 59.3943, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9860, Train Acc max label 0: 0.9860,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.5008, Gradient L2 Norm: 83.3876, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9914, Eval Acc max label 0: 0.9914,
+#Epoch 186: lr: 0.00050, Train Loss: 59.3902, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9860, Train Acc max label 0: 0.9860,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.5931, Gradient L2 Norm: 68.4291, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9907, Eval Acc max label 0: 0.9907,
+#Epoch 187: lr: 0.00050, Train Loss: 59.3232, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9860, Train Acc max label 0: 0.9860,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.6134, Gradient L2 Norm: 64.0911, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch 188: lr: 0.00050, Train Loss: 59.2255, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9859, Train Acc max label 0: 0.9859,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.6667, Gradient L2 Norm: 75.4427, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch 189: lr: 0.00050, Train Loss: 59.2206, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9858, Train Acc max label 0: 0.9858,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.7007, Gradient L2 Norm: 71.4532, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch 190: lr: 0.00050, Train Loss: 59.1181, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9857, Train Acc max label 0: 0.9857,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.8195, Gradient L2 Norm: 106.9927, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9904, Eval Acc max label 0: 0.9904,
+#Epoch 191: lr: 0.00050, Train Loss: 59.1289, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9858, Train Acc max label 0: 0.9858,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.9689, Gradient L2 Norm: 77.4739, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9916, Eval Acc max label 0: 0.9916,
+#Epoch 192: lr: 0.00050, Train Loss: 59.0583, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9852, Train Acc max label 0: 0.9852,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.7946, Gradient L2 Norm: 74.1171, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch 193: lr: 0.00050, Train Loss: 58.9653, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9851, Train Acc max label 0: 0.9851,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.9562, Gradient L2 Norm: 87.0305, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch 194: lr: 0.00050, Train Loss: 58.9380, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9854, Train Acc max label 0: 0.9854,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.7905, Gradient L2 Norm: 104.5044, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch 195: lr: 0.00050, Train Loss: 58.8209, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9851, Train Acc max label 0: 0.9851,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.0815, Gradient L2 Norm: 81.9936, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9902, Eval Acc max label 0: 0.9902,
+#Epoch 196: lr: 0.00050, Train Loss: 58.8502, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9848, Train Acc max label 0: 0.9848,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 67.9379, Gradient L2 Norm: 80.7695, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9904, Eval Acc max label 0: 0.9904,
+#Epoch 197: lr: 0.00050, Train Loss: 58.7784, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9845, Train Acc max label 0: 0.9845,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.2126, Gradient L2 Norm: 73.0206, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9904, Eval Acc max label 0: 0.9904,
+#Epoch 198: lr: 0.00050, Train Loss: 58.7580, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9851, Train Acc max label 0: 0.9851,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.1568, Gradient L2 Norm: 81.1712, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9907, Eval Acc max label 0: 0.9907,
+#Epoch 199: lr: 0.00050, Train Loss: 58.6505, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9849, Train Acc max label 0: 0.9849,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Eval Loss: 68.1978, Gradient L2 Norm: 70.7125, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9904, Eval Acc max label 0: 0.9904,
+Creating cluster examples plot...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+#Epoch 200: lr: 0.00050, Train Loss: 53.3646, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9849, Train Acc max label 0: 0.9849,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0, 1.0] gamma_kl_z_list:  [0, 1.0] gamma_kl_c_list:  [0, 1.0]
+Creating cluster examples and sample generation plots...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+sample generation done.
+Eval Loss: 58.0431, Gradient L2 Norm: 65.0889, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch 201: lr: 0.00050, Train Loss: 75.1313, Train Acc max facet 0: 0.5254, Train Acc max facet 1: 0.9811, Train Acc max label 0: 0.9811,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0033333333333333335, 1.0] gamma_kl_z_list:  [0.0033333333333333335, 1.0] gamma_kl_c_list:  [0.0033333333333333335, 1.0]
+Eval Loss: 66.5066, Gradient L2 Norm: 75.8618, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch 202: lr: 0.00050, Train Loss: 59.4605, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9855, Train Acc max label 0: 0.9855,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.006733333333333333, 1.0] gamma_kl_z_list:  [0.006733333333333333, 1.0] gamma_kl_c_list:  [0.006733333333333333, 1.0]
+Eval Loss: 66.8819, Gradient L2 Norm: 68.4394, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch 203: lr: 0.00050, Train Loss: 58.7078, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9856, Train Acc max label 0: 0.9856,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.010133333333333333, 1.0] gamma_kl_z_list:  [0.010133333333333333, 1.0] gamma_kl_c_list:  [0.010133333333333333, 1.0]
+Eval Loss: 67.2044, Gradient L2 Norm: 81.5232, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch 204: lr: 0.00050, Train Loss: 58.5145, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9853, Train Acc max label 0: 0.9853,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.013533333333333333, 1.0] gamma_kl_z_list:  [0.013533333333333333, 1.0] gamma_kl_c_list:  [0.013533333333333333, 1.0]
+Eval Loss: 67.3680, Gradient L2 Norm: 54.7636, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9911, Eval Acc max label 0: 0.9911,
+#Epoch 205: lr: 0.00050, Train Loss: 58.4235, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9851, Train Acc max label 0: 0.9851,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.016933333333333335, 1.0] gamma_kl_z_list:  [0.016933333333333335, 1.0] gamma_kl_c_list:  [0.016933333333333335, 1.0]
+Eval Loss: 67.6881, Gradient L2 Norm: 91.6421, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9909, Eval Acc max label 0: 0.9909,
+#Epoch 206: lr: 0.00050, Train Loss: 58.3705, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9854, Train Acc max label 0: 0.9854,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.02033333333333333, 1.0] gamma_kl_z_list:  [0.02033333333333333, 1.0] gamma_kl_c_list:  [0.02033333333333333, 1.0]
+Eval Loss: 67.5800, Gradient L2 Norm: 90.3042, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9907, Eval Acc max label 0: 0.9907,
+#Epoch 207: lr: 0.00050, Train Loss: 58.2802, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9850, Train Acc max label 0: 0.9850,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.023733333333333332, 1.0] gamma_kl_z_list:  [0.023733333333333332, 1.0] gamma_kl_c_list:  [0.023733333333333332, 1.0]
+Eval Loss: 67.8687, Gradient L2 Norm: 81.5488, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9907, Eval Acc max label 0: 0.9907,
+#Epoch 208: lr: 0.00050, Train Loss: 58.2509, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9843, Train Acc max label 0: 0.9843,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.027133333333333332, 1.0] gamma_kl_z_list:  [0.027133333333333332, 1.0] gamma_kl_c_list:  [0.027133333333333332, 1.0]
+Eval Loss: 67.8465, Gradient L2 Norm: 97.8634, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9900, Eval Acc max label 0: 0.9900,
+#Epoch 209: lr: 0.00050, Train Loss: 58.1114, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9847, Train Acc max label 0: 0.9847,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.030533333333333332, 1.0] gamma_kl_z_list:  [0.030533333333333332, 1.0] gamma_kl_c_list:  [0.030533333333333332, 1.0]
+Eval Loss: 67.9814, Gradient L2 Norm: 71.3630, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9890, Eval Acc max label 0: 0.9890,
+#Epoch 210: lr: 0.00050, Train Loss: 58.1032, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9845, Train Acc max label 0: 0.9845,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.033933333333333336, 1.0] gamma_kl_z_list:  [0.033933333333333336, 1.0] gamma_kl_c_list:  [0.033933333333333336, 1.0]
+Eval Loss: 68.1587, Gradient L2 Norm: 61.8661, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 211: lr: 0.00050, Train Loss: 58.0203, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9845, Train Acc max label 0: 0.9845,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.037333333333333336, 1.0] gamma_kl_z_list:  [0.037333333333333336, 1.0] gamma_kl_c_list:  [0.037333333333333336, 1.0]
+Eval Loss: 68.0799, Gradient L2 Norm: 76.0618, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch 212: lr: 0.00050, Train Loss: 57.9839, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9847, Train Acc max label 0: 0.9847,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.04073333333333334, 1.0] gamma_kl_z_list:  [0.04073333333333334, 1.0] gamma_kl_c_list:  [0.04073333333333334, 1.0]
+Eval Loss: 68.2614, Gradient L2 Norm: 101.1367, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 213: lr: 0.00050, Train Loss: 57.9113, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9844, Train Acc max label 0: 0.9844,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.04413333333333333, 1.0] gamma_kl_z_list:  [0.04413333333333333, 1.0] gamma_kl_c_list:  [0.04413333333333333, 1.0]
+Eval Loss: 68.6819, Gradient L2 Norm: 66.7562, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9902, Eval Acc max label 0: 0.9902,
+#Epoch 214: lr: 0.00050, Train Loss: 57.8299, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9843, Train Acc max label 0: 0.9843,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.04753333333333333, 1.0] gamma_kl_z_list:  [0.04753333333333333, 1.0] gamma_kl_c_list:  [0.04753333333333333, 1.0]
+Eval Loss: 68.4471, Gradient L2 Norm: 65.8209, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9890, Eval Acc max label 0: 0.9890,
+#Epoch 215: lr: 0.00050, Train Loss: 57.8735, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9842, Train Acc max label 0: 0.9842,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.05093333333333333, 1.0] gamma_kl_z_list:  [0.05093333333333333, 1.0] gamma_kl_c_list:  [0.05093333333333333, 1.0]
+Eval Loss: 68.5004, Gradient L2 Norm: 88.1677, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 216: lr: 0.00050, Train Loss: 57.7831, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9841, Train Acc max label 0: 0.9841,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.05433333333333333, 1.0] gamma_kl_z_list:  [0.05433333333333333, 1.0] gamma_kl_c_list:  [0.05433333333333333, 1.0]
+Eval Loss: 68.8000, Gradient L2 Norm: 106.5237, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9883, Eval Acc max label 0: 0.9883,
+#Epoch 217: lr: 0.00050, Train Loss: 57.7164, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9839, Train Acc max label 0: 0.9839,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.05773333333333333, 1.0] gamma_kl_z_list:  [0.05773333333333333, 1.0] gamma_kl_c_list:  [0.05773333333333333, 1.0]
+Eval Loss: 68.5926, Gradient L2 Norm: 98.7416, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 218: lr: 0.00050, Train Loss: 57.6978, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9838, Train Acc max label 0: 0.9838,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.06113333333333333, 1.0] gamma_kl_z_list:  [0.06113333333333333, 1.0] gamma_kl_c_list:  [0.06113333333333333, 1.0]
+Eval Loss: 68.6596, Gradient L2 Norm: 107.6590, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9900, Eval Acc max label 0: 0.9900,
+#Epoch 219: lr: 0.00050, Train Loss: 57.6489, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9837, Train Acc max label 0: 0.9837,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.06453333333333333, 1.0] gamma_kl_z_list:  [0.06453333333333333, 1.0] gamma_kl_c_list:  [0.06453333333333333, 1.0]
+Eval Loss: 68.6833, Gradient L2 Norm: 87.2464, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 220: lr: 0.00050, Train Loss: 57.5423, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9840, Train Acc max label 0: 0.9840,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.06793333333333333, 1.0] gamma_kl_z_list:  [0.06793333333333333, 1.0] gamma_kl_c_list:  [0.06793333333333333, 1.0]
+Eval Loss: 68.7767, Gradient L2 Norm: 64.0692, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9900, Eval Acc max label 0: 0.9900,
+#Epoch 221: lr: 0.00050, Train Loss: 57.5669, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9840, Train Acc max label 0: 0.9840,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.07133333333333333, 1.0] gamma_kl_z_list:  [0.07133333333333333, 1.0] gamma_kl_c_list:  [0.07133333333333333, 1.0]
+Eval Loss: 68.9337, Gradient L2 Norm: 88.8446, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9890, Eval Acc max label 0: 0.9890,
+#Epoch 222: lr: 0.00050, Train Loss: 57.4750, Train Acc max facet 0: 0.5240, Train Acc max facet 1: 0.9835, Train Acc max label 0: 0.9835,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.07473333333333333, 1.0] gamma_kl_z_list:  [0.07473333333333333, 1.0] gamma_kl_c_list:  [0.07473333333333333, 1.0]
+Eval Loss: 68.9070, Gradient L2 Norm: 66.4602, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 223: lr: 0.00050, Train Loss: 57.4308, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9837, Train Acc max label 0: 0.9837,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.07813333333333333, 1.0] gamma_kl_z_list:  [0.07813333333333333, 1.0] gamma_kl_c_list:  [0.07813333333333333, 1.0]
+Eval Loss: 69.0493, Gradient L2 Norm: 87.7198, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 224: lr: 0.00050, Train Loss: 57.3766, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9835, Train Acc max label 0: 0.9835,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.08153333333333333, 1.0] gamma_kl_z_list:  [0.08153333333333333, 1.0] gamma_kl_c_list:  [0.08153333333333333, 1.0]
+Eval Loss: 69.0408, Gradient L2 Norm: 70.7757, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+Creating cluster examples plot...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+#Epoch 225: lr: 0.00050, Train Loss: 52.3847, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9835, Train Acc max label 0: 0.9835,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.0816, 1.0] gamma_kl_z_list:  [0.0816, 1.0] gamma_kl_c_list:  [0.0816, 1.0]
+Creating cluster examples and sample generation plots...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+sample generation done.
+Eval Loss: 59.4474, Gradient L2 Norm: 56.3337, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch 226: lr: 0.00050, Train Loss: 68.8901, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9816, Train Acc max label 0: 0.9816,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.08833333333333333, 1.0] gamma_kl_z_list:  [0.08833333333333333, 1.0] gamma_kl_c_list:  [0.08833333333333333, 1.0]
+Eval Loss: 67.3379, Gradient L2 Norm: 67.4701, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9902, Eval Acc max label 0: 0.9902,
+#Epoch 227: lr: 0.00050, Train Loss: 57.7856, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9847, Train Acc max label 0: 0.9847,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.09173333333333333, 1.0] gamma_kl_z_list:  [0.09173333333333333, 1.0] gamma_kl_c_list:  [0.09173333333333333, 1.0]
+Eval Loss: 67.5748, Gradient L2 Norm: 84.8497, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9897, Eval Acc max label 0: 0.9897,
+#Epoch 228: lr: 0.00050, Train Loss: 57.3344, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9842, Train Acc max label 0: 0.9842,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.09513333333333333, 1.0] gamma_kl_z_list:  [0.09513333333333333, 1.0] gamma_kl_c_list:  [0.09513333333333333, 1.0]
+Eval Loss: 67.9540, Gradient L2 Norm: 73.3066, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 229: lr: 0.00050, Train Loss: 57.2519, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9843, Train Acc max label 0: 0.9843,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.09853333333333333, 1.0] gamma_kl_z_list:  [0.09853333333333333, 1.0] gamma_kl_c_list:  [0.09853333333333333, 1.0]
+Eval Loss: 68.1661, Gradient L2 Norm: 92.9367, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9897, Eval Acc max label 0: 0.9897,
+#Epoch 230: lr: 0.00050, Train Loss: 57.2082, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9841, Train Acc max label 0: 0.9841,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.10193333333333333, 1.0] gamma_kl_z_list:  [0.10193333333333333, 1.0] gamma_kl_c_list:  [0.10193333333333333, 1.0]
+Eval Loss: 68.3137, Gradient L2 Norm: 86.9746, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9897, Eval Acc max label 0: 0.9897,
+#Epoch 231: lr: 0.00050, Train Loss: 57.0491, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9839, Train Acc max label 0: 0.9839,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.10533333333333333, 1.0] gamma_kl_z_list:  [0.10533333333333333, 1.0] gamma_kl_c_list:  [0.10533333333333333, 1.0]
+Eval Loss: 68.5180, Gradient L2 Norm: 64.1305, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 232: lr: 0.00050, Train Loss: 57.0403, Train Acc max facet 0: 0.5239, Train Acc max facet 1: 0.9834, Train Acc max label 0: 0.9834,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.10873333333333333, 1.0] gamma_kl_z_list:  [0.10873333333333333, 1.0] gamma_kl_c_list:  [0.10873333333333333, 1.0]
+Eval Loss: 68.5178, Gradient L2 Norm: 61.1623, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 233: lr: 0.00050, Train Loss: 56.9235, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9835, Train Acc max label 0: 0.9835,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.11213333333333333, 1.0] gamma_kl_z_list:  [0.11213333333333333, 1.0] gamma_kl_c_list:  [0.11213333333333333, 1.0]
+Eval Loss: 68.8341, Gradient L2 Norm: 110.5217, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 234: lr: 0.00050, Train Loss: 56.9439, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9827, Train Acc max label 0: 0.9827,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.11553333333333334, 1.0] gamma_kl_z_list:  [0.11553333333333334, 1.0] gamma_kl_c_list:  [0.11553333333333334, 1.0]
+Eval Loss: 68.9942, Gradient L2 Norm: 78.7568, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 235: lr: 0.00050, Train Loss: 56.9003, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9828, Train Acc max label 0: 0.9828,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.11893333333333334, 1.0] gamma_kl_z_list:  [0.11893333333333334, 1.0] gamma_kl_c_list:  [0.11893333333333334, 1.0]
+Eval Loss: 68.9052, Gradient L2 Norm: 85.0945, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9888, Eval Acc max label 0: 0.9888,
+#Epoch 236: lr: 0.00050, Train Loss: 56.7982, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9830, Train Acc max label 0: 0.9830,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.12233333333333334, 1.0] gamma_kl_z_list:  [0.12233333333333334, 1.0] gamma_kl_c_list:  [0.12233333333333334, 1.0]
+Eval Loss: 69.1289, Gradient L2 Norm: 59.3964, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 237: lr: 0.00050, Train Loss: 56.7592, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9828, Train Acc max label 0: 0.9828,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.12573333333333334, 1.0] gamma_kl_z_list:  [0.12573333333333334, 1.0] gamma_kl_c_list:  [0.12573333333333334, 1.0]
+Eval Loss: 69.3011, Gradient L2 Norm: 104.9093, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 238: lr: 0.00050, Train Loss: 56.7435, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9826, Train Acc max label 0: 0.9826,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.12913333333333332, 1.0] gamma_kl_z_list:  [0.12913333333333332, 1.0] gamma_kl_c_list:  [0.12913333333333332, 1.0]
+Eval Loss: 69.1471, Gradient L2 Norm: 79.7092, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9890, Eval Acc max label 0: 0.9890,
+#Epoch 239: lr: 0.00050, Train Loss: 56.6884, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9828, Train Acc max label 0: 0.9828,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.13253333333333334, 1.0] gamma_kl_z_list:  [0.13253333333333334, 1.0] gamma_kl_c_list:  [0.13253333333333334, 1.0]
+Eval Loss: 69.6743, Gradient L2 Norm: 65.6637, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9881, Eval Acc max label 0: 0.9881,
+#Epoch 240: lr: 0.00050, Train Loss: 56.6208, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9828, Train Acc max label 0: 0.9828,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.13593333333333332, 1.0] gamma_kl_z_list:  [0.13593333333333332, 1.0] gamma_kl_c_list:  [0.13593333333333332, 1.0]
+Eval Loss: 69.5359, Gradient L2 Norm: 80.5403, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch 241: lr: 0.00050, Train Loss: 56.5835, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9826, Train Acc max label 0: 0.9826,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.13933333333333334, 1.0] gamma_kl_z_list:  [0.13933333333333334, 1.0] gamma_kl_c_list:  [0.13933333333333334, 1.0]
+Eval Loss: 69.3867, Gradient L2 Norm: 80.5082, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch 242: lr: 0.00050, Train Loss: 56.5507, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9826, Train Acc max label 0: 0.9826,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.14273333333333332, 1.0] gamma_kl_z_list:  [0.14273333333333332, 1.0] gamma_kl_c_list:  [0.14273333333333332, 1.0]
+Eval Loss: 69.8386, Gradient L2 Norm: 62.3245, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9881, Eval Acc max label 0: 0.9881,
+#Epoch 243: lr: 0.00050, Train Loss: 56.4957, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9821, Train Acc max label 0: 0.9821,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.14613333333333334, 1.0] gamma_kl_z_list:  [0.14613333333333334, 1.0] gamma_kl_c_list:  [0.14613333333333334, 1.0]
+Eval Loss: 69.5661, Gradient L2 Norm: 86.7361, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9883, Eval Acc max label 0: 0.9883,
+#Epoch 244: lr: 0.00050, Train Loss: 56.4107, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9821, Train Acc max label 0: 0.9821,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.14953333333333332, 1.0] gamma_kl_z_list:  [0.14953333333333332, 1.0] gamma_kl_c_list:  [0.14953333333333332, 1.0]
+Eval Loss: 69.7280, Gradient L2 Norm: 65.3729, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch 245: lr: 0.00050, Train Loss: 56.3907, Train Acc max facet 0: 0.5243, Train Acc max facet 1: 0.9829, Train Acc max label 0: 0.9829,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.15293333333333334, 1.0] gamma_kl_z_list:  [0.15293333333333334, 1.0] gamma_kl_c_list:  [0.15293333333333334, 1.0]
+Eval Loss: 69.8397, Gradient L2 Norm: 72.1562, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9883, Eval Acc max label 0: 0.9883,
+#Epoch 246: lr: 0.00050, Train Loss: 56.4226, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9822, Train Acc max label 0: 0.9822,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.15633333333333332, 1.0] gamma_kl_z_list:  [0.15633333333333332, 1.0] gamma_kl_c_list:  [0.15633333333333332, 1.0]
+Eval Loss: 70.1722, Gradient L2 Norm: 83.4784, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch 247: lr: 0.00050, Train Loss: 56.2801, Train Acc max facet 0: 0.5244, Train Acc max facet 1: 0.9826, Train Acc max label 0: 0.9826,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.15973333333333334, 1.0] gamma_kl_z_list:  [0.15973333333333334, 1.0] gamma_kl_c_list:  [0.15973333333333334, 1.0]
+Eval Loss: 69.8975, Gradient L2 Norm: 71.0402, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9874, Eval Acc max label 0: 0.9874,
+#Epoch 248: lr: 0.00050, Train Loss: 56.1863, Train Acc max facet 0: 0.5239, Train Acc max facet 1: 0.9822, Train Acc max label 0: 0.9822,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.16313333333333332, 1.0] gamma_kl_z_list:  [0.16313333333333332, 1.0] gamma_kl_c_list:  [0.16313333333333332, 1.0]
+Eval Loss: 70.1489, Gradient L2 Norm: 78.1895, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch 249: lr: 0.00050, Train Loss: 56.2182, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9825, Train Acc max label 0: 0.9825,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.16653333333333334, 1.0] gamma_kl_z_list:  [0.16653333333333334, 1.0] gamma_kl_c_list:  [0.16653333333333334, 1.0]
+Eval Loss: 70.4067, Gradient L2 Norm: 88.0123, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9881, Eval Acc max label 0: 0.9881,
+Creating cluster examples plot...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+#Epoch 250: lr: 0.00050, Train Loss: 51.2508, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9822, Train Acc max label 0: 0.9822,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.1666, 1.0] gamma_kl_z_list:  [0.1666, 1.0] gamma_kl_c_list:  [0.1666, 1.0]
+Creating cluster examples and sample generation plots...
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/wessim/miniconda3/envs/mfcvae/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cluster examples done.
+sample generation done.
+Eval Loss: 60.1865, Gradient L2 Norm: 48.1851, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9869, Eval Acc max label 0: 0.9869,
+#Epoch 251: lr: 0.00050, Train Loss: 68.3736, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9799, Train Acc max label 0: 0.9799,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.17333333333333334, 1.0] gamma_kl_z_list:  [0.17333333333333334, 1.0] gamma_kl_c_list:  [0.17333333333333334, 1.0]
+Eval Loss: 68.0508, Gradient L2 Norm: 91.3096, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 252: lr: 0.00050, Train Loss: 56.6987, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9837, Train Acc max label 0: 0.9837,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.17673333333333333, 1.0] gamma_kl_z_list:  [0.17673333333333333, 1.0] gamma_kl_c_list:  [0.17673333333333333, 1.0]
+Eval Loss: 68.7215, Gradient L2 Norm: 80.3329, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9900, Eval Acc max label 0: 0.9900,
+#Epoch 253: lr: 0.00050, Train Loss: 56.1545, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9832, Train Acc max label 0: 0.9832,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.18013333333333334, 1.0] gamma_kl_z_list:  [0.18013333333333334, 1.0] gamma_kl_c_list:  [0.18013333333333334, 1.0]
+Eval Loss: 68.7323, Gradient L2 Norm: 72.6673, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 254: lr: 0.00050, Train Loss: 56.0345, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9831, Train Acc max label 0: 0.9831,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.18353333333333333, 1.0] gamma_kl_z_list:  [0.18353333333333333, 1.0] gamma_kl_c_list:  [0.18353333333333333, 1.0]
+Eval Loss: 68.9328, Gradient L2 Norm: 71.1573, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9895, Eval Acc max label 0: 0.9895,
+#Epoch 255: lr: 0.00050, Train Loss: 56.0429, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9823, Train Acc max label 0: 0.9823,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.18693333333333334, 1.0] gamma_kl_z_list:  [0.18693333333333334, 1.0] gamma_kl_c_list:  [0.18693333333333334, 1.0]
+Eval Loss: 69.1865, Gradient L2 Norm: 58.1930, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 256: lr: 0.00050, Train Loss: 55.9862, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9823, Train Acc max label 0: 0.9823,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.19033333333333333, 1.0] gamma_kl_z_list:  [0.19033333333333333, 1.0] gamma_kl_c_list:  [0.19033333333333333, 1.0]
+Eval Loss: 69.3161, Gradient L2 Norm: 65.3042, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9893, Eval Acc max label 0: 0.9893,
+#Epoch 257: lr: 0.00050, Train Loss: 55.8337, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9823, Train Acc max label 0: 0.9823,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.19373333333333334, 1.0] gamma_kl_z_list:  [0.19373333333333334, 1.0] gamma_kl_c_list:  [0.19373333333333334, 1.0]
+Eval Loss: 69.5260, Gradient L2 Norm: 66.3884, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9890, Eval Acc max label 0: 0.9890,
+#Epoch 258: lr: 0.00050, Train Loss: 55.8337, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9823, Train Acc max label 0: 0.9823,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.19713333333333333, 1.0] gamma_kl_z_list:  [0.19713333333333333, 1.0] gamma_kl_c_list:  [0.19713333333333333, 1.0]
+Eval Loss: 69.9090, Gradient L2 Norm: 83.0641, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9883, Eval Acc max label 0: 0.9883,
+#Epoch 259: lr: 0.00050, Train Loss: 55.7871, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9821, Train Acc max label 0: 0.9821,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.20053333333333334, 1.0] gamma_kl_z_list:  [0.20053333333333334, 1.0] gamma_kl_c_list:  [0.20053333333333334, 1.0]
+Eval Loss: 69.8388, Gradient L2 Norm: 64.7572, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9890, Eval Acc max label 0: 0.9890,
+#Epoch 260: lr: 0.00050, Train Loss: 55.7468, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9821, Train Acc max label 0: 0.9821,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.20393333333333333, 1.0] gamma_kl_z_list:  [0.20393333333333333, 1.0] gamma_kl_c_list:  [0.20393333333333333, 1.0]
+Eval Loss: 69.9973, Gradient L2 Norm: 69.2482, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9890, Eval Acc max label 0: 0.9890,
+#Epoch 261: lr: 0.00050, Train Loss: 55.7386, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9820, Train Acc max label 0: 0.9820,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.20733333333333334, 1.0] gamma_kl_z_list:  [0.20733333333333334, 1.0] gamma_kl_c_list:  [0.20733333333333334, 1.0]
+Eval Loss: 69.9845, Gradient L2 Norm: 89.8483, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch 262: lr: 0.00050, Train Loss: 55.6349, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9819, Train Acc max label 0: 0.9819,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.21073333333333333, 1.0] gamma_kl_z_list:  [0.21073333333333333, 1.0] gamma_kl_c_list:  [0.21073333333333333, 1.0]
+Eval Loss: 70.0226, Gradient L2 Norm: 89.0010, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9881, Eval Acc max label 0: 0.9881,
+#Epoch 263: lr: 0.00050, Train Loss: 55.6425, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9816, Train Acc max label 0: 0.9816,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.21413333333333334, 1.0] gamma_kl_z_list:  [0.21413333333333334, 1.0] gamma_kl_c_list:  [0.21413333333333334, 1.0]
+Eval Loss: 70.3971, Gradient L2 Norm: 72.6968, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9874, Eval Acc max label 0: 0.9874,
+#Epoch 264: lr: 0.00050, Train Loss: 55.6875, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9813, Train Acc max label 0: 0.9813,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.21753333333333333, 1.0] gamma_kl_z_list:  [0.21753333333333333, 1.0] gamma_kl_c_list:  [0.21753333333333333, 1.0]
+Eval Loss: 70.3482, Gradient L2 Norm: 88.5653, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch 265: lr: 0.00050, Train Loss: 55.4798, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9816, Train Acc max label 0: 0.9816,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.22093333333333334, 1.0] gamma_kl_z_list:  [0.22093333333333334, 1.0] gamma_kl_c_list:  [0.22093333333333334, 1.0]
+Eval Loss: 70.4047, Gradient L2 Norm: 70.5108, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch 266: lr: 0.00050, Train Loss: 55.4446, Train Acc max facet 0: 0.5247, Train Acc max facet 1: 0.9819, Train Acc max label 0: 0.9819,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.22433333333333333, 1.0] gamma_kl_z_list:  [0.22433333333333333, 1.0] gamma_kl_c_list:  [0.22433333333333333, 1.0]
+Eval Loss: 70.2991, Gradient L2 Norm: 90.1752, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9881, Eval Acc max label 0: 0.9881,
+#Epoch 267: lr: 0.00050, Train Loss: 55.3960, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9814, Train Acc max label 0: 0.9814,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.22773333333333334, 1.0] gamma_kl_z_list:  [0.22773333333333334, 1.0] gamma_kl_c_list:  [0.22773333333333334, 1.0]
+Eval Loss: 70.5488, Gradient L2 Norm: 74.4423, Eval Acc max facet 0: 0.5294, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch 268: lr: 0.00050, Train Loss: 55.3684, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9815, Train Acc max label 0: 0.9815,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.23113333333333333, 1.0] gamma_kl_z_list:  [0.23113333333333333, 1.0] gamma_kl_c_list:  [0.23113333333333333, 1.0]
+Eval Loss: 70.7174, Gradient L2 Norm: 103.0951, Eval Acc max facet 0: 0.5312, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch 269: lr: 0.00050, Train Loss: 55.3336, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9812, Train Acc max label 0: 0.9812,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.23453333333333334, 1.0] gamma_kl_z_list:  [0.23453333333333334, 1.0] gamma_kl_c_list:  [0.23453333333333334, 1.0]
+Eval Loss: 70.9081, Gradient L2 Norm: 73.2094, Eval Acc max facet 0: 0.5350, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch 270: lr: 0.00050, Train Loss: 55.3116, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9814, Train Acc max label 0: 0.9814,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.23793333333333333, 1.0] gamma_kl_z_list:  [0.23793333333333333, 1.0] gamma_kl_c_list:  [0.23793333333333333, 1.0]
+Eval Loss: 70.8201, Gradient L2 Norm: 95.8411, Eval Acc max facet 0: 0.5597, Eval Acc max facet 1: 0.9876, Eval Acc max label 0: 0.9876,
+#Epoch 271: lr: 0.00050, Train Loss: 55.2209, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9810, Train Acc max label 0: 0.9810,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.24133333333333334, 1.0] gamma_kl_z_list:  [0.24133333333333334, 1.0] gamma_kl_c_list:  [0.24133333333333334, 1.0]
+Eval Loss: 70.8153, Gradient L2 Norm: 85.4163, Eval Acc max facet 0: 0.5816, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch 272: lr: 0.00050, Train Loss: 55.1229, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9809, Train Acc max label 0: 0.9809,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.24473333333333333, 1.0] gamma_kl_z_list:  [0.24473333333333333, 1.0] gamma_kl_c_list:  [0.24473333333333333, 1.0]
+Eval Loss: 70.7478, Gradient L2 Norm: 63.2600, Eval Acc max facet 0: 0.6352, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch 273: lr: 0.00050, Train Loss: 54.9869, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9812, Train Acc max label 0: 0.9812,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.24813333333333334, 1.0] gamma_kl_z_list:  [0.24813333333333334, 1.0] gamma_kl_c_list:  [0.24813333333333334, 1.0]
+Eval Loss: 70.7802, Gradient L2 Norm: 70.6215, Eval Acc max facet 0: 0.6713, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch 274: lr: 0.00050, Train Loss: 54.8667, Train Acc max facet 0: 0.5240, Train Acc max facet 1: 0.9810, Train Acc max label 0: 0.9810,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.25153333333333333, 1.0] gamma_kl_z_list:  [0.25153333333333333, 1.0] gamma_kl_c_list:  [0.25153333333333333, 1.0]
+Eval Loss: 70.6235, Gradient L2 Norm: 67.9740, Eval Acc max facet 0: 0.6893, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+Creating cluster examples plot...
+cluster examples done.
+#Epoch 275: lr: 0.00050, Train Loss: 49.9322, Train Acc max facet 0: 0.6224, Train Acc max facet 1: 0.9811, Train Acc max label 0: 0.9811,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.2516, 1.0] gamma_kl_z_list:  [0.2516, 1.0] gamma_kl_c_list:  [0.2516, 1.0]
+Creating cluster examples and sample generation plots...
+cluster examples done.
+sample generation done.
+Eval Loss: 61.1120, Gradient L2 Norm: 51.7616, Eval Acc max facet 0: 0.5862, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch 276: lr: 0.00050, Train Loss: 65.6108, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9793, Train Acc max label 0: 0.9793,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.25833333333333336, 1.0] gamma_kl_z_list:  [0.25833333333333336, 1.0] gamma_kl_c_list:  [0.25833333333333336, 1.0]
+Eval Loss: 68.6898, Gradient L2 Norm: 93.5186, Eval Acc max facet 0: 0.6538, Eval Acc max facet 1: 0.9881, Eval Acc max label 0: 0.9881,
+#Epoch 277: lr: 0.00050, Train Loss: 55.0884, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9824, Train Acc max label 0: 0.9824,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.2617333333333333, 1.0] gamma_kl_z_list:  [0.2617333333333333, 1.0] gamma_kl_c_list:  [0.2617333333333333, 1.0]
+Eval Loss: 68.8980, Gradient L2 Norm: 91.0403, Eval Acc max facet 0: 0.6685, Eval Acc max facet 1: 0.9881, Eval Acc max label 0: 0.9881,
+#Epoch 278: lr: 0.00050, Train Loss: 54.6377, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9821, Train Acc max label 0: 0.9821,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.26513333333333333, 1.0] gamma_kl_z_list:  [0.26513333333333333, 1.0] gamma_kl_c_list:  [0.26513333333333333, 1.0]
+Eval Loss: 69.4295, Gradient L2 Norm: 73.6821, Eval Acc max facet 0: 0.6807, Eval Acc max facet 1: 0.9886, Eval Acc max label 0: 0.9886,
+#Epoch 279: lr: 0.00050, Train Loss: 54.4704, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9815, Train Acc max label 0: 0.9815,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.26853333333333335, 1.0] gamma_kl_z_list:  [0.26853333333333335, 1.0] gamma_kl_c_list:  [0.26853333333333335, 1.0]
+Eval Loss: 69.2989, Gradient L2 Norm: 84.5041, Eval Acc max facet 0: 0.6821, Eval Acc max facet 1: 0.9881, Eval Acc max label 0: 0.9881,
+#Epoch 280: lr: 0.00050, Train Loss: 54.3602, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9814, Train Acc max label 0: 0.9814,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.27193333333333336, 1.0] gamma_kl_z_list:  [0.27193333333333336, 1.0] gamma_kl_c_list:  [0.27193333333333336, 1.0]
+Eval Loss: 69.4885, Gradient L2 Norm: 76.7938, Eval Acc max facet 0: 0.6907, Eval Acc max facet 1: 0.9876, Eval Acc max label 0: 0.9876,
+#Epoch 281: lr: 0.00050, Train Loss: 54.2483, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9808, Train Acc max label 0: 0.9808,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.2753333333333333, 1.0] gamma_kl_z_list:  [0.2753333333333333, 1.0] gamma_kl_c_list:  [0.2753333333333333, 1.0]
+Eval Loss: 69.3409, Gradient L2 Norm: 70.2204, Eval Acc max facet 0: 0.6897, Eval Acc max facet 1: 0.9876, Eval Acc max label 0: 0.9876,
+#Epoch 282: lr: 0.00050, Train Loss: 54.1324, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9813, Train Acc max label 0: 0.9813,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.27873333333333333, 1.0] gamma_kl_z_list:  [0.27873333333333333, 1.0] gamma_kl_c_list:  [0.27873333333333333, 1.0]
+Eval Loss: 69.4235, Gradient L2 Norm: 128.5842, Eval Acc max facet 0: 0.7002, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch 283: lr: 0.00050, Train Loss: 54.0805, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.28213333333333335, 1.0] gamma_kl_z_list:  [0.28213333333333335, 1.0] gamma_kl_c_list:  [0.28213333333333335, 1.0]
+Eval Loss: 69.5986, Gradient L2 Norm: 77.6638, Eval Acc max facet 0: 0.7061, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch 284: lr: 0.00050, Train Loss: 54.0055, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9810, Train Acc max label 0: 0.9810,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.2855333333333333, 1.0] gamma_kl_z_list:  [0.2855333333333333, 1.0] gamma_kl_c_list:  [0.2855333333333333, 1.0]
+Eval Loss: 69.6890, Gradient L2 Norm: 78.8681, Eval Acc max facet 0: 0.7103, Eval Acc max facet 1: 0.9881, Eval Acc max label 0: 0.9881,
+#Epoch 285: lr: 0.00050, Train Loss: 53.8928, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9809, Train Acc max label 0: 0.9809,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.2889333333333333, 1.0] gamma_kl_z_list:  [0.2889333333333333, 1.0] gamma_kl_c_list:  [0.2889333333333333, 1.0]
+Eval Loss: 69.7712, Gradient L2 Norm: 97.7539, Eval Acc max facet 0: 0.7247, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 286: lr: 0.00050, Train Loss: 53.7936, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.29233333333333333, 1.0] gamma_kl_z_list:  [0.29233333333333333, 1.0] gamma_kl_c_list:  [0.29233333333333333, 1.0]
+Eval Loss: 69.7470, Gradient L2 Norm: 69.1934, Eval Acc max facet 0: 0.7368, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch 287: lr: 0.00050, Train Loss: 53.7086, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.29573333333333335, 1.0] gamma_kl_z_list:  [0.29573333333333335, 1.0] gamma_kl_c_list:  [0.29573333333333335, 1.0]
+Eval Loss: 69.6310, Gradient L2 Norm: 68.1296, Eval Acc max facet 0: 0.7478, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 288: lr: 0.00050, Train Loss: 53.6134, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9806, Train Acc max label 0: 0.9806,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.2991333333333333, 1.0] gamma_kl_z_list:  [0.2991333333333333, 1.0] gamma_kl_c_list:  [0.2991333333333333, 1.0]
+Eval Loss: 69.6439, Gradient L2 Norm: 76.7933, Eval Acc max facet 0: 0.7676, Eval Acc max facet 1: 0.9858, Eval Acc max label 0: 0.9858,
+#Epoch 289: lr: 0.00050, Train Loss: 53.5626, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9806, Train Acc max label 0: 0.9806,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3025333333333333, 1.0] gamma_kl_z_list:  [0.3025333333333333, 1.0] gamma_kl_c_list:  [0.3025333333333333, 1.0]
+Eval Loss: 69.4969, Gradient L2 Norm: 92.3587, Eval Acc max facet 0: 0.7755, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 290: lr: 0.00050, Train Loss: 53.4130, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9808, Train Acc max label 0: 0.9808,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.30593333333333333, 1.0] gamma_kl_z_list:  [0.30593333333333333, 1.0] gamma_kl_c_list:  [0.30593333333333333, 1.0]
+Eval Loss: 69.5280, Gradient L2 Norm: 69.7163, Eval Acc max facet 0: 0.7802, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 291: lr: 0.00050, Train Loss: 53.3549, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9805, Train Acc max label 0: 0.9805,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.30933333333333335, 1.0] gamma_kl_z_list:  [0.30933333333333335, 1.0] gamma_kl_c_list:  [0.30933333333333335, 1.0]
+Eval Loss: 69.3230, Gradient L2 Norm: 62.5116, Eval Acc max facet 0: 0.7550, Eval Acc max facet 1: 0.9867, Eval Acc max label 0: 0.9867,
+#Epoch 292: lr: 0.00050, Train Loss: 53.1636, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3127333333333333, 1.0] gamma_kl_z_list:  [0.3127333333333333, 1.0] gamma_kl_c_list:  [0.3127333333333333, 1.0]
+Eval Loss: 69.3279, Gradient L2 Norm: 84.3860, Eval Acc max facet 0: 0.7601, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 293: lr: 0.00050, Train Loss: 53.1051, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9803, Train Acc max label 0: 0.9803,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3161333333333333, 1.0] gamma_kl_z_list:  [0.3161333333333333, 1.0] gamma_kl_c_list:  [0.3161333333333333, 1.0]
+Eval Loss: 69.2772, Gradient L2 Norm: 66.6450, Eval Acc max facet 0: 0.7452, Eval Acc max facet 1: 0.9869, Eval Acc max label 0: 0.9869,
+#Epoch 294: lr: 0.00050, Train Loss: 53.0435, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9804, Train Acc max label 0: 0.9804,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.31953333333333334, 1.0] gamma_kl_z_list:  [0.31953333333333334, 1.0] gamma_kl_c_list:  [0.31953333333333334, 1.0]
+Eval Loss: 69.5384, Gradient L2 Norm: 58.4797, Eval Acc max facet 0: 0.6888, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 295: lr: 0.00050, Train Loss: 52.8510, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9801, Train Acc max label 0: 0.9801,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.32293333333333335, 1.0] gamma_kl_z_list:  [0.32293333333333335, 1.0] gamma_kl_c_list:  [0.32293333333333335, 1.0]
+Eval Loss: 69.5081, Gradient L2 Norm: 86.4675, Eval Acc max facet 0: 0.6793, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch 296: lr: 0.00050, Train Loss: 52.8370, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9799, Train Acc max label 0: 0.9799,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3263333333333333, 1.0] gamma_kl_z_list:  [0.3263333333333333, 1.0] gamma_kl_c_list:  [0.3263333333333333, 1.0]
+Eval Loss: 69.5257, Gradient L2 Norm: 70.5197, Eval Acc max facet 0: 0.6121, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch 297: lr: 0.00050, Train Loss: 52.8031, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9810, Train Acc max label 0: 0.9810,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3297333333333333, 1.0] gamma_kl_z_list:  [0.3297333333333333, 1.0] gamma_kl_c_list:  [0.3297333333333333, 1.0]
+Eval Loss: 69.2863, Gradient L2 Norm: 69.7331, Eval Acc max facet 0: 0.5531, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch 298: lr: 0.00050, Train Loss: 52.6457, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9800, Train Acc max label 0: 0.9800,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.33313333333333334, 1.0] gamma_kl_z_list:  [0.33313333333333334, 1.0] gamma_kl_c_list:  [0.33313333333333334, 1.0]
+Eval Loss: 69.2741, Gradient L2 Norm: 70.3209, Eval Acc max facet 0: 0.5308, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 299: lr: 0.00050, Train Loss: 52.5762, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9801, Train Acc max label 0: 0.9801,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.33653333333333335, 1.0] gamma_kl_z_list:  [0.33653333333333335, 1.0] gamma_kl_c_list:  [0.33653333333333335, 1.0]
+Eval Loss: 69.2191, Gradient L2 Norm: 76.7501, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+Creating cluster examples plot...
+cluster examples done.
+#Epoch 300: lr: 0.00050, Train Loss: 47.7231, Train Acc max facet 0: 0.7722, Train Acc max facet 1: 0.9803, Train Acc max label 0: 0.9803,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3366, 1.0] gamma_kl_z_list:  [0.3366, 1.0] gamma_kl_c_list:  [0.3366, 1.0]
+Creating cluster examples and sample generation plots...
+cluster examples done.
+sample generation done.
+Eval Loss: 59.7030, Gradient L2 Norm: 48.4204, Eval Acc max facet 0: 0.8002, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch 301: lr: 0.00050, Train Loss: 62.5912, Train Acc max facet 0: 0.5238, Train Acc max facet 1: 0.9782, Train Acc max label 0: 0.9782,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3433333333333333, 1.0] gamma_kl_z_list:  [0.3433333333333333, 1.0] gamma_kl_c_list:  [0.3433333333333333, 1.0]
+Eval Loss: 68.0190, Gradient L2 Norm: 86.9393, Eval Acc max facet 0: 0.7664, Eval Acc max facet 1: 0.9879, Eval Acc max label 0: 0.9879,
+#Epoch 302: lr: 0.00050, Train Loss: 52.8119, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9811, Train Acc max label 0: 0.9811,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.34673333333333334, 1.0] gamma_kl_z_list:  [0.34673333333333334, 1.0] gamma_kl_c_list:  [0.34673333333333334, 1.0]
+Eval Loss: 68.2985, Gradient L2 Norm: 65.2342, Eval Acc max facet 0: 0.7657, Eval Acc max facet 1: 0.9876, Eval Acc max label 0: 0.9876,
+#Epoch 303: lr: 0.00050, Train Loss: 52.3799, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9806, Train Acc max label 0: 0.9806,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.35013333333333335, 1.0] gamma_kl_z_list:  [0.35013333333333335, 1.0] gamma_kl_c_list:  [0.35013333333333335, 1.0]
+Eval Loss: 68.4923, Gradient L2 Norm: 65.1708, Eval Acc max facet 0: 0.7522, Eval Acc max facet 1: 0.9876, Eval Acc max label 0: 0.9876,
+#Epoch 304: lr: 0.00050, Train Loss: 52.2196, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3535333333333333, 1.0] gamma_kl_z_list:  [0.3535333333333333, 1.0] gamma_kl_c_list:  [0.3535333333333333, 1.0]
+Eval Loss: 68.5601, Gradient L2 Norm: 66.3294, Eval Acc max facet 0: 0.7529, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 305: lr: 0.00050, Train Loss: 52.1286, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9809, Train Acc max label 0: 0.9809,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3569333333333333, 1.0] gamma_kl_z_list:  [0.3569333333333333, 1.0] gamma_kl_c_list:  [0.3569333333333333, 1.0]
+Eval Loss: 68.5891, Gradient L2 Norm: 81.7503, Eval Acc max facet 0: 0.7536, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 306: lr: 0.00050, Train Loss: 52.0967, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.36033333333333334, 1.0] gamma_kl_z_list:  [0.36033333333333334, 1.0] gamma_kl_c_list:  [0.36033333333333334, 1.0]
+Eval Loss: 68.8028, Gradient L2 Norm: 74.7746, Eval Acc max facet 0: 0.7121, Eval Acc max facet 1: 0.9869, Eval Acc max label 0: 0.9869,
+#Epoch 307: lr: 0.00050, Train Loss: 52.0865, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9803, Train Acc max label 0: 0.9803,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.36373333333333335, 1.0] gamma_kl_z_list:  [0.36373333333333335, 1.0] gamma_kl_c_list:  [0.36373333333333335, 1.0]
+Eval Loss: 68.8475, Gradient L2 Norm: 66.2071, Eval Acc max facet 0: 0.6932, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch 308: lr: 0.00050, Train Loss: 51.9821, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9807, Train Acc max label 0: 0.9807,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3671333333333333, 1.0] gamma_kl_z_list:  [0.3671333333333333, 1.0] gamma_kl_c_list:  [0.3671333333333333, 1.0]
+Eval Loss: 68.7034, Gradient L2 Norm: 89.1064, Eval Acc max facet 0: 0.7068, Eval Acc max facet 1: 0.9876, Eval Acc max label 0: 0.9876,
+#Epoch 309: lr: 0.00050, Train Loss: 51.9452, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9799, Train Acc max label 0: 0.9799,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3705333333333333, 1.0] gamma_kl_z_list:  [0.3705333333333333, 1.0] gamma_kl_c_list:  [0.3705333333333333, 1.0]
+Eval Loss: 68.6879, Gradient L2 Norm: 67.4374, Eval Acc max facet 0: 0.7100, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch 310: lr: 0.00050, Train Loss: 51.8171, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9803, Train Acc max label 0: 0.9803,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.37393333333333334, 1.0] gamma_kl_z_list:  [0.37393333333333334, 1.0] gamma_kl_c_list:  [0.37393333333333334, 1.0]
+Eval Loss: 68.9344, Gradient L2 Norm: 68.6078, Eval Acc max facet 0: 0.7009, Eval Acc max facet 1: 0.9872, Eval Acc max label 0: 0.9872,
+#Epoch 311: lr: 0.00050, Train Loss: 51.7780, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9803, Train Acc max label 0: 0.9803,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.37733333333333335, 1.0] gamma_kl_z_list:  [0.37733333333333335, 1.0] gamma_kl_c_list:  [0.37733333333333335, 1.0]
+Eval Loss: 68.7843, Gradient L2 Norm: 86.2102, Eval Acc max facet 0: 0.6918, Eval Acc max facet 1: 0.9876, Eval Acc max label 0: 0.9876,
+#Epoch 312: lr: 0.00050, Train Loss: 51.6870, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9804, Train Acc max label 0: 0.9804,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3807333333333333, 1.0] gamma_kl_z_list:  [0.3807333333333333, 1.0] gamma_kl_c_list:  [0.3807333333333333, 1.0]
+Eval Loss: 68.8564, Gradient L2 Norm: 63.2279, Eval Acc max facet 0: 0.6422, Eval Acc max facet 1: 0.9869, Eval Acc max label 0: 0.9869,
+#Epoch 313: lr: 0.00050, Train Loss: 51.6046, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9797, Train Acc max label 0: 0.9797,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3841333333333333, 1.0] gamma_kl_z_list:  [0.3841333333333333, 1.0] gamma_kl_c_list:  [0.3841333333333333, 1.0]
+Eval Loss: 68.8029, Gradient L2 Norm: 65.7641, Eval Acc max facet 0: 0.6585, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch 314: lr: 0.00050, Train Loss: 51.5167, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9798, Train Acc max label 0: 0.9798,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.38753333333333334, 1.0] gamma_kl_z_list:  [0.38753333333333334, 1.0] gamma_kl_c_list:  [0.38753333333333334, 1.0]
+Eval Loss: 69.0211, Gradient L2 Norm: 69.7790, Eval Acc max facet 0: 0.6145, Eval Acc max facet 1: 0.9869, Eval Acc max label 0: 0.9869,
+#Epoch 315: lr: 0.00050, Train Loss: 51.4327, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9800, Train Acc max label 0: 0.9800,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.39093333333333335, 1.0] gamma_kl_z_list:  [0.39093333333333335, 1.0] gamma_kl_c_list:  [0.39093333333333335, 1.0]
+Eval Loss: 69.0489, Gradient L2 Norm: 100.8926, Eval Acc max facet 0: 0.6403, Eval Acc max facet 1: 0.9853, Eval Acc max label 0: 0.9853,
+#Epoch 316: lr: 0.00050, Train Loss: 51.4080, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9795, Train Acc max label 0: 0.9795,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3943333333333333, 1.0] gamma_kl_z_list:  [0.3943333333333333, 1.0] gamma_kl_c_list:  [0.3943333333333333, 1.0]
+Eval Loss: 68.8099, Gradient L2 Norm: 63.4458, Eval Acc max facet 0: 0.6175, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch 317: lr: 0.00050, Train Loss: 51.2484, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9795, Train Acc max label 0: 0.9795,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.3977333333333333, 1.0] gamma_kl_z_list:  [0.3977333333333333, 1.0] gamma_kl_c_list:  [0.3977333333333333, 1.0]
+Eval Loss: 68.7668, Gradient L2 Norm: 69.9433, Eval Acc max facet 0: 0.5618, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch 318: lr: 0.00050, Train Loss: 51.1388, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9796, Train Acc max label 0: 0.9796,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.40113333333333334, 1.0] gamma_kl_z_list:  [0.40113333333333334, 1.0] gamma_kl_c_list:  [0.40113333333333334, 1.0]
+Eval Loss: 68.7811, Gradient L2 Norm: 63.6276, Eval Acc max facet 0: 0.6030, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch 319: lr: 0.00050, Train Loss: 51.1554, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9796, Train Acc max label 0: 0.9796,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.40453333333333336, 1.0] gamma_kl_z_list:  [0.40453333333333336, 1.0] gamma_kl_c_list:  [0.40453333333333336, 1.0]
+Eval Loss: 69.0113, Gradient L2 Norm: 94.3163, Eval Acc max facet 0: 0.5562, Eval Acc max facet 1: 0.9855, Eval Acc max label 0: 0.9855,
+#Epoch 320: lr: 0.00050, Train Loss: 51.0953, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9795, Train Acc max label 0: 0.9795,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4079333333333333, 1.0] gamma_kl_z_list:  [0.4079333333333333, 1.0] gamma_kl_c_list:  [0.4079333333333333, 1.0]
+Eval Loss: 68.7991, Gradient L2 Norm: 88.9543, Eval Acc max facet 0: 0.5522, Eval Acc max facet 1: 0.9846, Eval Acc max label 0: 0.9846,
+#Epoch 321: lr: 0.00050, Train Loss: 50.9833, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9795, Train Acc max label 0: 0.9795,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.41133333333333333, 1.0] gamma_kl_z_list:  [0.41133333333333333, 1.0] gamma_kl_c_list:  [0.41133333333333333, 1.0]
+Eval Loss: 68.6500, Gradient L2 Norm: 75.7524, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch 322: lr: 0.00050, Train Loss: 50.8873, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9797, Train Acc max label 0: 0.9797,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.41473333333333334, 1.0] gamma_kl_z_list:  [0.41473333333333334, 1.0] gamma_kl_c_list:  [0.41473333333333334, 1.0]
+Eval Loss: 68.6484, Gradient L2 Norm: 87.0437, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch 323: lr: 0.00050, Train Loss: 50.8673, Train Acc max facet 0: 0.5247, Train Acc max facet 1: 0.9792, Train Acc max label 0: 0.9792,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.41813333333333336, 1.0] gamma_kl_z_list:  [0.41813333333333336, 1.0] gamma_kl_c_list:  [0.41813333333333336, 1.0]
+Eval Loss: 68.5788, Gradient L2 Norm: 63.9555, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9855, Eval Acc max label 0: 0.9855,
+#Epoch 324: lr: 0.00050, Train Loss: 50.7642, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9796, Train Acc max label 0: 0.9796,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4215333333333333, 1.0] gamma_kl_z_list:  [0.4215333333333333, 1.0] gamma_kl_c_list:  [0.4215333333333333, 1.0]
+Eval Loss: 68.5007, Gradient L2 Norm: 81.9006, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9848, Eval Acc max label 0: 0.9848,
+Creating cluster examples plot...
+cluster examples done.
+#Epoch 325: lr: 0.00050, Train Loss: 46.0212, Train Acc max facet 0: 0.7279, Train Acc max facet 1: 0.9797, Train Acc max label 0: 0.9797,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4216, 1.0] gamma_kl_z_list:  [0.4216, 1.0] gamma_kl_c_list:  [0.4216, 1.0]
+Creating cluster examples and sample generation plots...
+cluster examples done.
+sample generation done.
+Eval Loss: 59.3393, Gradient L2 Norm: 60.3609, Eval Acc max facet 0: 0.8163, Eval Acc max facet 1: 0.9851, Eval Acc max label 0: 0.9851,
+#Epoch 326: lr: 0.00050, Train Loss: 60.7508, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9776, Train Acc max label 0: 0.9776,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.42833333333333334, 1.0] gamma_kl_z_list:  [0.42833333333333334, 1.0] gamma_kl_c_list:  [0.42833333333333334, 1.0]
+Eval Loss: 67.5126, Gradient L2 Norm: 86.0014, Eval Acc max facet 0: 0.7485, Eval Acc max facet 1: 0.9876, Eval Acc max label 0: 0.9876,
+#Epoch 327: lr: 0.00050, Train Loss: 50.9226, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9808, Train Acc max label 0: 0.9808,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.43173333333333336, 1.0] gamma_kl_z_list:  [0.43173333333333336, 1.0] gamma_kl_c_list:  [0.43173333333333336, 1.0]
+Eval Loss: 67.6828, Gradient L2 Norm: 59.8635, Eval Acc max facet 0: 0.7231, Eval Acc max facet 1: 0.9867, Eval Acc max label 0: 0.9867,
+#Epoch 328: lr: 0.00050, Train Loss: 50.4846, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9802, Train Acc max label 0: 0.9802,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4351333333333333, 1.0] gamma_kl_z_list:  [0.4351333333333333, 1.0] gamma_kl_c_list:  [0.4351333333333333, 1.0]
+Eval Loss: 67.7885, Gradient L2 Norm: 72.3445, Eval Acc max facet 0: 0.7333, Eval Acc max facet 1: 0.9869, Eval Acc max label 0: 0.9869,
+#Epoch 329: lr: 0.00050, Train Loss: 50.3648, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9800, Train Acc max label 0: 0.9800,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.43853333333333333, 1.0] gamma_kl_z_list:  [0.43853333333333333, 1.0] gamma_kl_c_list:  [0.43853333333333333, 1.0]
+Eval Loss: 67.9523, Gradient L2 Norm: 60.2145, Eval Acc max facet 0: 0.7159, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch 330: lr: 0.00050, Train Loss: 50.2732, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9802, Train Acc max label 0: 0.9802,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.44193333333333334, 1.0] gamma_kl_z_list:  [0.44193333333333334, 1.0] gamma_kl_c_list:  [0.44193333333333334, 1.0]
+Eval Loss: 68.0947, Gradient L2 Norm: 64.4188, Eval Acc max facet 0: 0.7012, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch 331: lr: 0.00050, Train Loss: 50.1981, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9795, Train Acc max label 0: 0.9795,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.44533333333333336, 1.0] gamma_kl_z_list:  [0.44533333333333336, 1.0] gamma_kl_c_list:  [0.44533333333333336, 1.0]
+Eval Loss: 67.8952, Gradient L2 Norm: 85.9263, Eval Acc max facet 0: 0.6865, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch 332: lr: 0.00050, Train Loss: 50.0821, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9798, Train Acc max label 0: 0.9798,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4487333333333333, 1.0] gamma_kl_z_list:  [0.4487333333333333, 1.0] gamma_kl_c_list:  [0.4487333333333333, 1.0]
+Eval Loss: 67.7670, Gradient L2 Norm: 65.7896, Eval Acc max facet 0: 0.6793, Eval Acc max facet 1: 0.9853, Eval Acc max label 0: 0.9853,
+#Epoch 333: lr: 0.00050, Train Loss: 50.0107, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9794, Train Acc max label 0: 0.9794,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.45213333333333333, 1.0] gamma_kl_z_list:  [0.45213333333333333, 1.0] gamma_kl_c_list:  [0.45213333333333333, 1.0]
+Eval Loss: 67.7680, Gradient L2 Norm: 79.8041, Eval Acc max facet 0: 0.6720, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch 334: lr: 0.00050, Train Loss: 49.9734, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9794, Train Acc max label 0: 0.9794,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.45553333333333335, 1.0] gamma_kl_z_list:  [0.45553333333333335, 1.0] gamma_kl_c_list:  [0.45553333333333335, 1.0]
+Eval Loss: 68.1602, Gradient L2 Norm: 67.0802, Eval Acc max facet 0: 0.6508, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch 335: lr: 0.00050, Train Loss: 49.9373, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9792, Train Acc max label 0: 0.9792,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.45893333333333336, 1.0] gamma_kl_z_list:  [0.45893333333333336, 1.0] gamma_kl_c_list:  [0.45893333333333336, 1.0]
+Eval Loss: 67.9816, Gradient L2 Norm: 81.7567, Eval Acc max facet 0: 0.6347, Eval Acc max facet 1: 0.9860, Eval Acc max label 0: 0.9860,
+#Epoch 336: lr: 0.00050, Train Loss: 49.8973, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9796, Train Acc max label 0: 0.9796,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4623333333333333, 1.0] gamma_kl_z_list:  [0.4623333333333333, 1.0] gamma_kl_c_list:  [0.4623333333333333, 1.0]
+Eval Loss: 68.3030, Gradient L2 Norm: 73.0924, Eval Acc max facet 0: 0.6275, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch 337: lr: 0.00050, Train Loss: 49.7797, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9795, Train Acc max label 0: 0.9795,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.46573333333333333, 1.0] gamma_kl_z_list:  [0.46573333333333333, 1.0] gamma_kl_c_list:  [0.46573333333333333, 1.0]
+Eval Loss: 68.2149, Gradient L2 Norm: 83.2094, Eval Acc max facet 0: 0.6287, Eval Acc max facet 1: 0.9855, Eval Acc max label 0: 0.9855,
+#Epoch 338: lr: 0.00050, Train Loss: 49.7563, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9794, Train Acc max label 0: 0.9794,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.46913333333333335, 1.0] gamma_kl_z_list:  [0.46913333333333335, 1.0] gamma_kl_c_list:  [0.46913333333333335, 1.0]
+Eval Loss: 67.7713, Gradient L2 Norm: 62.5892, Eval Acc max facet 0: 0.6245, Eval Acc max facet 1: 0.9862, Eval Acc max label 0: 0.9862,
+#Epoch 339: lr: 0.00050, Train Loss: 49.6105, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9789, Train Acc max label 0: 0.9789,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.47253333333333336, 1.0] gamma_kl_z_list:  [0.47253333333333336, 1.0] gamma_kl_c_list:  [0.47253333333333336, 1.0]
+Eval Loss: 67.9927, Gradient L2 Norm: 87.0869, Eval Acc max facet 0: 0.6021, Eval Acc max facet 1: 0.9848, Eval Acc max label 0: 0.9848,
+#Epoch 340: lr: 0.00050, Train Loss: 49.5667, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9792, Train Acc max label 0: 0.9792,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4759333333333333, 1.0] gamma_kl_z_list:  [0.4759333333333333, 1.0] gamma_kl_c_list:  [0.4759333333333333, 1.0]
+Eval Loss: 68.3002, Gradient L2 Norm: 69.3973, Eval Acc max facet 0: 0.5923, Eval Acc max facet 1: 0.9867, Eval Acc max label 0: 0.9867,
+#Epoch 341: lr: 0.00050, Train Loss: 49.5461, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9794, Train Acc max label 0: 0.9794,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.47933333333333333, 1.0] gamma_kl_z_list:  [0.47933333333333333, 1.0] gamma_kl_c_list:  [0.47933333333333333, 1.0]
+Eval Loss: 68.3194, Gradient L2 Norm: 63.2525, Eval Acc max facet 0: 0.5748, Eval Acc max facet 1: 0.9865, Eval Acc max label 0: 0.9865,
+#Epoch 342: lr: 0.00050, Train Loss: 49.4694, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9793, Train Acc max label 0: 0.9793,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.48273333333333335, 1.0] gamma_kl_z_list:  [0.48273333333333335, 1.0] gamma_kl_c_list:  [0.48273333333333335, 1.0]
+Eval Loss: 67.9042, Gradient L2 Norm: 58.8683, Eval Acc max facet 0: 0.5688, Eval Acc max facet 1: 0.9853, Eval Acc max label 0: 0.9853,
+#Epoch 343: lr: 0.00050, Train Loss: 49.3984, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9787, Train Acc max label 0: 0.9787,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4861333333333333, 1.0] gamma_kl_z_list:  [0.4861333333333333, 1.0] gamma_kl_c_list:  [0.4861333333333333, 1.0]
+Eval Loss: 68.2850, Gradient L2 Norm: 61.1160, Eval Acc max facet 0: 0.5657, Eval Acc max facet 1: 0.9855, Eval Acc max label 0: 0.9855,
+#Epoch 344: lr: 0.00050, Train Loss: 49.3392, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9791, Train Acc max label 0: 0.9791,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4895333333333333, 1.0] gamma_kl_z_list:  [0.4895333333333333, 1.0] gamma_kl_c_list:  [0.4895333333333333, 1.0]
+Eval Loss: 68.1423, Gradient L2 Norm: 71.1626, Eval Acc max facet 0: 0.5608, Eval Acc max facet 1: 0.9851, Eval Acc max label 0: 0.9851,
+#Epoch 345: lr: 0.00050, Train Loss: 49.2686, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9795, Train Acc max label 0: 0.9795,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.49293333333333333, 1.0] gamma_kl_z_list:  [0.49293333333333333, 1.0] gamma_kl_c_list:  [0.49293333333333333, 1.0]
+Eval Loss: 68.1781, Gradient L2 Norm: 68.1761, Eval Acc max facet 0: 0.5662, Eval Acc max facet 1: 0.9855, Eval Acc max label 0: 0.9855,
+#Epoch 346: lr: 0.00050, Train Loss: 49.1876, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9789, Train Acc max label 0: 0.9789,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.49633333333333335, 1.0] gamma_kl_z_list:  [0.49633333333333335, 1.0] gamma_kl_c_list:  [0.49633333333333335, 1.0]
+Eval Loss: 68.1110, Gradient L2 Norm: 67.1754, Eval Acc max facet 0: 0.5480, Eval Acc max facet 1: 0.9853, Eval Acc max label 0: 0.9853,
+#Epoch 347: lr: 0.00050, Train Loss: 49.1388, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9791, Train Acc max label 0: 0.9791,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.4997333333333333, 1.0] gamma_kl_z_list:  [0.4997333333333333, 1.0] gamma_kl_c_list:  [0.4997333333333333, 1.0]
+Eval Loss: 67.9509, Gradient L2 Norm: 64.6117, Eval Acc max facet 0: 0.5387, Eval Acc max facet 1: 0.9848, Eval Acc max label 0: 0.9848,
+#Epoch 348: lr: 0.00050, Train Loss: 49.0101, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9790, Train Acc max label 0: 0.9790,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.5031333333333333, 1.0] gamma_kl_z_list:  [0.5031333333333333, 1.0] gamma_kl_c_list:  [0.5031333333333333, 1.0]
+Eval Loss: 67.9659, Gradient L2 Norm: 68.4944, Eval Acc max facet 0: 0.5291, Eval Acc max facet 1: 0.9851, Eval Acc max label 0: 0.9851,
+#Epoch 349: lr: 0.00050, Train Loss: 49.0255, Train Acc max facet 0: 0.5237, Train Acc max facet 1: 0.9791, Train Acc max label 0: 0.9791,
+progr. training - alpha_enc_fade_in_list:  [1.0, 1.0] alpha_dec_fade_in_list:  [0.5065333333333333, 1.0] gamma_kl_z_list:  [0.5065333333333333, 1.0] gamma_kl_c_list:  [0.5065333333333333, 1.0]
+Eval Loss: 67.9317, Gradient L2 Norm: 85.0583, Eval Acc max facet 0: 0.5317, Eval Acc max facet 1: 0.9851, Eval Acc max label 0: 0.9851,

@@ -1,0 +1,9 @@
+Initialize Shapes dataset and data loaders...
+Traceback (most recent call last):
+  File "train_mnsit.py", line 1131, in <module>
+    train(beta_z, beta_c)
+  File "train_mnsit.py", line 404, in train
+    train_data = MNIST_13Rot(train=True, device=args.device)
+  File "/home/wessim/PHD/Clustering(SophIA)/MFCVAE/datasets.py", line 34, in __init__
+    self.data = torch.cat([data, rotated_data], dim=0).unsqueeze(1).float().div(255)
+RuntimeError: Tensors must have same number of dimensions: got 3 and 4

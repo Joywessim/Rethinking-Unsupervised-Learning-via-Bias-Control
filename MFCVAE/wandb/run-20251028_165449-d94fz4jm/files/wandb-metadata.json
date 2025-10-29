@@ -1,0 +1,28 @@
+{
+  "os":  "Linux-6.14.0-33-generic-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2025-10-28T15:54:49.038710Z",
+  "args":  [
+    "--config_args_path",
+    "configs/mnist.yml"
+  ],
+  "program":  "train_mnsit.py",
+  "codePath":  "train_mnsit.py",
+  "codePathLocal":  "train_mnsit.py",
+  "email":  "omezzinew@gmail.com",
+  "root":  "/home/wessim/PHD/Clustering(SophIA)/MFCVAE",
+  "host":  "Wessim",
+  "executable":  "/home/wessim/miniconda3/envs/mfcvae/bin/python",
+  "cpu_count":  16,
+  "cpu_count_logical":  22,
+  "disk":  {
+    "/":  {
+      "total":  "534724198400",
+      "used":  "257615777792"
+    }
+  },
+  "memory":  {
+    "total":  "33066475520"
+  },
+  "writerId":  "nqcxrbnwu6xi8kaug2s491s63bf04anq"
+}
